@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.34
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741592116898
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741595350827
+  login: 1741595329299
+money: '0'
+last-account-name: come219
+lastlocation:
+  world: 26d94bc9-1480-46cd-b8ef-03b13b837c67
+  world-name: superflat
+  x: -0.09669996427956884
+  y: -60.0
+  z: 0.19175018866258883
+  yaw: 26.8499813079834
+  pitch: 34.79997634887695
+logoutlocation:
+  world: be8013c3-25e1-4a81-bfc8-32c0c3eadb9e
+  world-name: world
+  x: 0.5
+  y: 215.0
+  z: 0.5
+  yaw: -168.74986267089844
+  pitch: 22.799955368041992

@@ -1,0 +1,22 @@
+@echo off
+setlocal
+
+:: Set RAM allocation
+set MIN_RAM=2048M
+set MAX_RAM=2048M
+
+:: Get start time
+for /f "tokens=1-4 delims=/: " %%a in ("%TIME%") do (
+    set START_TIME=%%a:%%b:%%c %%d
+)
+
+echo Starting Spigot server...
+echo Start Time: %START_TIME%
+echo Allocating %MAX_RAM% of RAM...
+
+:: Run server
+java -Xms%MIN_RAM% -Xmx%MAX_RAM% -XX:+UseG1GC -jar spigot.jar nogui > server.log 2>&1
+
+:: Wait before closing
+echo Server stopped. Press any key to exit.
+pause

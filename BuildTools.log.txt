@@ -1,0 +1,1065 @@
+[nogui]
+Loading BuildTools version: git-BuildTools-37ddb93-189 (#189)
+Java Version: Java 23
+Current Path: C:\Users\a219studios\Desktop\new_mc_server2025
+git version 2.47.1.windows.2
+Picked up _JAVA_OPTIONS: -Xmx2048M
+java version "23.0.2" 2025-01-21
+Java(TM) SE Runtime Environment (build 23.0.2+7-58)
+Java HotSpot(TM) 64-Bit Server VM (build 23.0.2+7-58, mixed mode, sharing)
+Attempting to build version: 'latest' use --rev <version> to override
+Found version
+{
+	"name": "4446",
+	"description": "Jenkins build 4446",
+	"refs": {
+		"BuildData": "3edaf46ec1eed4115ce1b18d2846cded42577e42",
+		"Bukkit": "dde0ff02083164b4aa99d40faf9539dbd9bc2385",
+		"CraftBukkit": "e95450221f30923b2b0daaa09b63463fd57843c9",
+		"Spigot": "e5a64e7315952650156f7c51a05d95de94b283ae"
+	},
+	"toolsVersion": 181,
+	"javaVersions": [65, 67]
+}
+
+Pulling updates for C:\Users\a219studios\Desktop\new_mc_server2025\BuildData\.git
+Successfully fetched updates!
+Checked out: 3edaf46ec1eed4115ce1b18d2846cded42577e42
+Pulling updates for C:\Users\a219studios\Desktop\new_mc_server2025\Bukkit\.git
+Successfully fetched updates!
+Checked out: dde0ff02083164b4aa99d40faf9539dbd9bc2385
+Pulling updates for C:\Users\a219studios\Desktop\new_mc_server2025\CraftBukkit\.git
+Successfully fetched updates!
+Checked out: e95450221f30923b2b0daaa09b63463fd57843c9
+Pulling updates for C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\.git
+Successfully fetched updates!
+Checked out: e5a64e7315952650156f7c51a05d95de94b283ae
+Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.21.4, accessTransforms=bukkit-1.21.4.at, classMappings=bukkit-1.21.4-cl.csrg, memberMappings=null, packageMappings=package.srg, minecraftHash=d7bbfba1a4ae1034d6b4f32e790d357c57cbace8c9120335a268cb647015e602, classMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --auto-lvt BASIC -e BuildData/mappings/bukkit-1.21.4.exclude -i {0} -m {1} -o {2}, memberMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --auto-member TOKENS -i {0} -m {1} -o {2}, finalMapCommand=java -jar BuildData/bin/SpecialSource.jar -i {0} --access-transformer {1} -m {2} -o {3}, decompileCommand=java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1 {0} {1}, serverUrl=https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar, mappingsUrl=https://piston-data.mojang.com/v1/objects/0b1e60cc509cfb0172573ae56b436c29febbc187/server.txt, spigotVersion=1.21.4-R0.1-SNAPSHOT, toolsVersion=181)
+Found good Minecraft hash (4707d00eb834b446575d89a61a11b5d548d8c001)
+**** Warning, Minecraft jar hash of b022f6baa3bbe0f2e253fa0d648bd449e79eb2aad5f12eaec9e45b5df37bcc25 does not match stored hash of d7bbfba1a4ae1034d6b4f32e790d357c57cbace8c9120335a268cb647015e602
+Picked up _JAVA_OPTIONS: -Xmx2048M
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.1:install-file (default-cli) @ standalone-pom ---
+[INFO] pom.xml not found in mapped.a0531ed8.jar
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\work\mapped.a0531ed8.jar to C:\Users\a219studios\.m2\repository\org\spigotmc\minecraft-server\1.21.4-R0.1-SNAPSHOT\minecraft-server-1.21.4-R0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.391 s
+[INFO] Finished at: 2025-03-09T14:45:39-07:00
+[INFO] ------------------------------------------------------------------------
+Applying CraftBukkit Patches
+Backing up NMS dir
+Patching net\minecraft\advancements\AdvancementHolder.java
+Patching net\minecraft\advancements\AdvancementTree.java
+Patching net\minecraft\commands\arguments\ArgumentEntity.java
+Patching net\minecraft\commands\arguments\blocks\ArgumentBlock.java
+Patching net\minecraft\commands\arguments\selector\ArgumentParserSelector.java
+Patching net\minecraft\commands\arguments\selector\EntitySelector.java
+Patching net\minecraft\commands\CommandDispatcher.java
+Patching net\minecraft\commands\CommandListenerWrapper.java
+Patching net\minecraft\commands\ICommandListener.java
+Patching net\minecraft\core\cauldron\CauldronInteraction.java
+Patching net\minecraft\core\component\DataComponentPatch.java
+Patching net\minecraft\core\dispenser\DispenseBehaviorBoat.java
+Patching net\minecraft\core\dispenser\DispenseBehaviorItem.java
+Patching net\minecraft\core\dispenser\DispenseBehaviorProjectile.java
+Patching net\minecraft\core\dispenser\DispenseBehaviorShears.java
+Patching net\minecraft\core\dispenser\DispenseBehaviorShulkerBox.java
+Patching net\minecraft\core\dispenser\EquipmentDispenseItemBehavior.java
+Patching net\minecraft\core\dispenser\IDispenseBehavior.java
+Patching net\minecraft\core\dispenser\MinecartDispenseItemBehavior.java
+Patching net\minecraft\CrashReport.java
+Patching net\minecraft\nbt\NBTCompressedStreamTools.java
+Patching net\minecraft\nbt\NBTTagByteArray.java
+Patching net\minecraft\nbt\NBTTagIntArray.java
+Patching net\minecraft\network\chat\ChatHexColor.java
+Patching net\minecraft\network\chat\IChatBaseComponent.java
+Patching net\minecraft\network\NetworkManager.java
+Patching net\minecraft\network\PacketDataSerializer.java
+Patching net\minecraft\network\protocol\common\custom\DiscardedPayload.java
+Patching net\minecraft\network\protocol\common\ServerboundCustomPayloadPacket.java
+Patching net\minecraft\network\protocol\game\ClientboundInitializeBorderPacket.java
+Patching net\minecraft\network\protocol\game\ClientboundSetBorderCenterPacket.java
+Patching net\minecraft\network\protocol\game\ClientboundSystemChatPacket.java
+Patching net\minecraft\network\protocol\game\PacketPlayInBlockPlace.java
+Patching net\minecraft\network\protocol\game\PacketPlayInUseItem.java
+Patching net\minecraft\network\protocol\game\PacketPlayOutMultiBlockChange.java
+Patching net\minecraft\network\protocol\handshake\PacketHandshakingInSetProtocol.java
+Patching net\minecraft\network\protocol\PlayerConnectionUtils.java
+Patching net\minecraft\network\syncher\DataWatcher.java
+Patching net\minecraft\server\AdvancementDataPlayer.java
+Patching net\minecraft\server\AdvancementDataWorld.java
+Patching net\minecraft\server\bossevents\BossBattleCustom.java
+Patching net\minecraft\server\commands\CommandDifficulty.java
+Patching net\minecraft\server\commands\CommandEffect.java
+Patching net\minecraft\server\commands\CommandGamerule.java
+Patching net\minecraft\server\commands\CommandGive.java
+Patching net\minecraft\server\commands\CommandList.java
+Patching net\minecraft\server\commands\CommandLoot.java
+Patching net\minecraft\server\commands\CommandReload.java
+Patching net\minecraft\server\commands\CommandSchedule.java
+Patching net\minecraft\server\commands\CommandSetWorldSpawn.java
+Patching net\minecraft\server\commands\CommandSpawnpoint.java
+Patching net\minecraft\server\commands\CommandSpreadPlayers.java
+Patching net\minecraft\server\commands\CommandSummon.java
+Patching net\minecraft\server\commands\CommandTeleport.java
+Patching net\minecraft\server\commands\CommandTime.java
+Patching net\minecraft\server\commands\CommandWeather.java
+Patching net\minecraft\server\commands\CommandWorldBorder.java
+Patching net\minecraft\server\commands\PlaceCommand.java
+Patching net\minecraft\server\CustomFunctionData.java
+Patching net\minecraft\server\dedicated\DedicatedServer.java
+Patching net\minecraft\server\dedicated\DedicatedServerProperties.java
+Patching net\minecraft\server\dedicated\DedicatedServerSettings.java
+Patching net\minecraft\server\dedicated\PropertyManager.java
+Patching net\minecraft\server\DispenserRegistry.java
+Patching net\minecraft\server\gui\ServerGUI.java
+Patching net\minecraft\server\level\ChunkMapDistance.java
+Patching net\minecraft\server\level\ChunkProviderServer.java
+Patching net\minecraft\server\level\EntityPlayer.java
+Patching net\minecraft\server\level\EntityTrackerEntry.java
+Patching net\minecraft\server\level\PlayerChunk.java
+Patching net\minecraft\server\level\PlayerChunkMap.java
+Patching net\minecraft\server\level\PlayerInteractManager.java
+Patching net\minecraft\server\level\RegionLimitedWorldAccess.java
+Patching net\minecraft\server\level\TicketType.java
+Patching net\minecraft\server\level\WorldServer.java
+Patching net\minecraft\server\Main.java
+Patching net\minecraft\server\MinecraftServer.java
+Patching net\minecraft\server\network\HandshakeListener.java
+Patching net\minecraft\server\network\LegacyPingHandler.java
+Patching net\minecraft\server\network\LoginListener.java
+Patching net\minecraft\server\network\PacketStatusListener.java
+Patching net\minecraft\server\network\PlayerConnection.java
+Patching net\minecraft\server\network\ServerCommonPacketListenerImpl.java
+Patching net\minecraft\server\network\ServerConfigurationPacketListenerImpl.java
+Patching net\minecraft\server\network\ServerConnection.java
+Patching net\minecraft\server\players\ExpirableListEntry.java
+Patching net\minecraft\server\players\GameProfileBanEntry.java
+Patching net\minecraft\server\players\JsonList.java
+Patching net\minecraft\server\players\NameReferencingFileConverter.java
+Patching net\minecraft\server\players\PlayerList.java
+Patching net\minecraft\server\players\SleepStatus.java
+Patching net\minecraft\server\players\UserCache.java
+Patching net\minecraft\server\rcon\RemoteControlCommandListener.java
+Patching net\minecraft\server\rcon\thread\RemoteControlSession.java
+Patching net\minecraft\server\ScoreboardServer.java
+Patching net\minecraft\server\ServerTickRateManager.java
+Patching net\minecraft\stats\RecipeBookServer.java
+Patching net\minecraft\stats\ServerStatisticManager.java
+Patching net\minecraft\stats\StatisticManager.java
+Patching net\minecraft\util\datafix\DataConverterRegistry.java
+Patching net\minecraft\util\datafix\fixes\DataConverterFlatten.java
+Patching net\minecraft\util\datafix\fixes\DataConverterMap.java
+Patching net\minecraft\util\SpawnUtil.java
+Patching net\minecraft\util\TickThrottler.java
+Patching net\minecraft\util\worldupdate\WorldUpgrader.java
+Patching net\minecraft\world\damagesource\DamageSource.java
+Patching net\minecraft\world\damagesource\DamageSources.java
+Patching net\minecraft\world\effect\HealOrHarmMobEffect.java
+Patching net\minecraft\world\effect\HungerMobEffect.java
+Patching net\minecraft\world\effect\InfestedMobEffect.java
+Patching net\minecraft\world\effect\MobEffectUtil.java
+Patching net\minecraft\world\effect\OozingMobEffect.java
+Patching net\minecraft\world\effect\PoisonMobEffect.java
+Patching net\minecraft\world\effect\RegenerationMobEffect.java
+Patching net\minecraft\world\effect\SaturationMobEffect.java
+Patching net\minecraft\world\entity\ai\attributes\GenericAttributes.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorAttackTargetForget.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorAttackTargetSet.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorCareer.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorFarm.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorFindAdmirableItem.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorFollowAdult.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorInteractDoor.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorMakeLove.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorProfession.java
+Patching net\minecraft\world\entity\ai\behavior\BehaviorUtil.java
+Patching net\minecraft\world\entity\ai\behavior\PrepareRamNearestTarget.java
+Patching net\minecraft\world\entity\ai\behavior\TryLaySpawnOnWaterNearLand.java
+Patching net\minecraft\world\entity\ai\behavior\warden\Digging.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalBreakDoor.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalEatTile.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalRemoveBlock.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalSit.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalTame.java
+Patching net\minecraft\world\entity\ai\goal\PathfinderGoalTempt.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalDefendVillage.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalHurtByTarget.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalNearestAttackableTarget.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalOwnerHurtByTarget.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalOwnerHurtTarget.java
+Patching net\minecraft\world\entity\ai\goal\target\PathfinderGoalTarget.java
+Patching net\minecraft\world\entity\ai\gossip\Reputation.java
+Patching net\minecraft\world\entity\ai\sensing\TemptingSensor.java
+Patching net\minecraft\world\entity\ai\village\ReputationEvent.java
+Patching net\minecraft\world\entity\ai\village\VillageSiege.java
+Patching net\minecraft\world\entity\ambient\EntityBat.java
+Patching net\minecraft\world\entity\animal\allay\Allay.java
+Patching net\minecraft\world\entity\animal\armadillo\Armadillo.java
+Patching net\minecraft\world\entity\animal\axolotl\Axolotl.java
+Patching net\minecraft\world\entity\animal\Bucketable.java
+Patching net\minecraft\world\entity\animal\camel\Camel.java
+Patching net\minecraft\world\entity\animal\EntityAnimal.java
+Patching net\minecraft\world\entity\animal\EntityBee.java
+Patching net\minecraft\world\entity\animal\EntityCat.java
+Patching net\minecraft\world\entity\animal\EntityChicken.java
+Patching net\minecraft\world\entity\animal\EntityCow.java
+Patching net\minecraft\world\entity\animal\EntityDolphin.java
+Patching net\minecraft\world\entity\animal\EntityFox.java
+Patching net\minecraft\world\entity\animal\EntityIronGolem.java
+Patching net\minecraft\world\entity\animal\EntityMushroomCow.java
+Patching net\minecraft\world\entity\animal\EntityOcelot.java
+Patching net\minecraft\world\entity\animal\EntityPanda.java
+Patching net\minecraft\world\entity\animal\EntityParrot.java
+Patching net\minecraft\world\entity\animal\EntityPerchable.java
+Patching net\minecraft\world\entity\animal\EntityPig.java
+Patching net\minecraft\world\entity\animal\EntityPufferFish.java
+Patching net\minecraft\world\entity\animal\EntityRabbit.java
+Patching net\minecraft\world\entity\animal\EntitySheep.java
+Patching net\minecraft\world\entity\animal\EntitySnowman.java
+Patching net\minecraft\world\entity\animal\EntityTurtle.java
+Patching net\minecraft\world\entity\animal\EntityWolf.java
+Patching net\minecraft\world\entity\animal\frog\ShootTongue.java
+Patching net\minecraft\world\entity\animal\frog\Tadpole.java
+Patching net\minecraft\world\entity\animal\goat\Goat.java
+Patching net\minecraft\world\entity\animal\horse\EntityHorseAbstract.java
+Patching net\minecraft\world\entity\animal\horse\EntityHorseSkeleton.java
+Patching net\minecraft\world\entity\animal\horse\EntityLlama.java
+Patching net\minecraft\world\entity\animal\horse\EntityLlamaTrader.java
+Patching net\minecraft\world\entity\animal\horse\PathfinderGoalHorseTrap.java
+Patching net\minecraft\world\entity\animal\sniffer\Sniffer.java
+Patching net\minecraft\world\entity\boss\enderdragon\EntityEnderCrystal.java
+Patching net\minecraft\world\entity\boss\enderdragon\EntityEnderDragon.java
+Patching net\minecraft\world\entity\boss\enderdragon\phases\DragonControllerLandedFlame.java
+Patching net\minecraft\world\entity\boss\enderdragon\phases\DragonControllerManager.java
+Patching net\minecraft\world\entity\boss\wither\EntityWither.java
+Patching net\minecraft\world\entity\ConversionType.java
+Patching net\minecraft\world\entity\decoration\BlockAttachedEntity.java
+Patching net\minecraft\world\entity\decoration\EntityArmorStand.java
+Patching net\minecraft\world\entity\decoration\EntityItemFrame.java
+Patching net\minecraft\world\entity\decoration\EntityLeash.java
+Patching net\minecraft\world\entity\decoration\EntityPainting.java
+Patching net\minecraft\world\entity\Entity.java
+Patching net\minecraft\world\entity\EntityAgeable.java
+Patching net\minecraft\world\entity\EntityAreaEffectCloud.java
+Patching net\minecraft\world\entity\EntityCreature.java
+Patching net\minecraft\world\entity\EntityExperienceOrb.java
+Patching net\minecraft\world\entity\EntityInsentient.java
+Patching net\minecraft\world\entity\EntityLightning.java
+Patching net\minecraft\world\entity\EntityLiving.java
+Patching net\minecraft\world\entity\EntityTameableAnimal.java
+Patching net\minecraft\world\entity\EntityTypes.java
+Patching net\minecraft\world\entity\IEntityAngerable.java
+Patching net\minecraft\world\entity\IEntitySelector.java
+Patching net\minecraft\world\entity\Interaction.java
+Patching net\minecraft\world\entity\item\EntityFallingBlock.java
+Patching net\minecraft\world\entity\item\EntityItem.java
+Patching net\minecraft\world\entity\item\EntityTNTPrimed.java
+Patching net\minecraft\world\entity\Leashable.java
+Patching net\minecraft\world\entity\monster\Bogged.java
+Patching net\minecraft\world\entity\monster\breeze\Breeze.java
+Patching net\minecraft\world\entity\monster\creaking\Creaking.java
+Patching net\minecraft\world\entity\monster\EntityCaveSpider.java
+Patching net\minecraft\world\entity\monster\EntityCreeper.java
+Patching net\minecraft\world\entity\monster\EntityEnderman.java
+Patching net\minecraft\world\entity\monster\EntityEndermite.java
+Patching net\minecraft\world\entity\monster\EntityEvoker.java
+Patching net\minecraft\world\entity\monster\EntityGhast.java
+Patching net\minecraft\world\entity\monster\EntityGuardian.java
+Patching net\minecraft\world\entity\monster\EntityGuardianElder.java
+Patching net\minecraft\world\entity\monster\EntityIllagerIllusioner.java
+Patching net\minecraft\world\entity\monster\EntityIllagerWizard.java
+Patching net\minecraft\world\entity\monster\EntityPhantom.java
+Patching net\minecraft\world\entity\monster\EntityPigZombie.java
+Patching net\minecraft\world\entity\monster\EntityPillager.java
+Patching net\minecraft\world\entity\monster\EntityRavager.java
+Patching net\minecraft\world\entity\monster\EntityShulker.java
+Patching net\minecraft\world\entity\monster\EntitySilverfish.java
+Patching net\minecraft\world\entity\monster\EntitySkeleton.java
+Patching net\minecraft\world\entity\monster\EntitySkeletonAbstract.java
+Patching net\minecraft\world\entity\monster\EntitySkeletonWither.java
+Patching net\minecraft\world\entity\monster\EntitySlime.java
+Patching net\minecraft\world\entity\monster\EntitySpider.java
+Patching net\minecraft\world\entity\monster\EntityStrider.java
+Patching net\minecraft\world\entity\monster\EntityVex.java
+Patching net\minecraft\world\entity\monster\EntityWitch.java
+Patching net\minecraft\world\entity\monster\EntityZombie.java
+Patching net\minecraft\world\entity\monster\EntityZombieHusk.java
+Patching net\minecraft\world\entity\monster\EntityZombieVillager.java
+Patching net\minecraft\world\entity\monster\hoglin\EntityHoglin.java
+Patching net\minecraft\world\entity\monster\piglin\EntityPiglin.java
+Patching net\minecraft\world\entity\monster\piglin\EntityPiglinAbstract.java
+Patching net\minecraft\world\entity\monster\piglin\PiglinAI.java
+Patching net\minecraft\world\entity\monster\warden\Warden.java
+Patching net\minecraft\world\entity\npc\EntityVillager.java
+Patching net\minecraft\world\entity\npc\EntityVillagerAbstract.java
+Patching net\minecraft\world\entity\npc\EntityVillagerTrader.java
+Patching net\minecraft\world\entity\npc\InventoryCarrier.java
+Patching net\minecraft\world\entity\npc\MobSpawnerTrader.java
+Patching net\minecraft\world\entity\player\EntityHuman.java
+Patching net\minecraft\world\entity\player\PlayerInventory.java
+Patching net\minecraft\world\entity\projectile\EntityArrow.java
+Patching net\minecraft\world\entity\projectile\EntityDragonFireball.java
+Patching net\minecraft\world\entity\projectile\EntityEgg.java
+Patching net\minecraft\world\entity\projectile\EntityEnderPearl.java
+Patching net\minecraft\world\entity\projectile\EntityEnderSignal.java
+Patching net\minecraft\world\entity\projectile\EntityEvokerFangs.java
+Patching net\minecraft\world\entity\projectile\EntityFireball.java
+Patching net\minecraft\world\entity\projectile\EntityFireballFireball.java
+Patching net\minecraft\world\entity\projectile\EntityFireworks.java
+Patching net\minecraft\world\entity\projectile\EntityFishingHook.java
+Patching net\minecraft\world\entity\projectile\EntityLargeFireball.java
+Patching net\minecraft\world\entity\projectile\EntityLlamaSpit.java
+Patching net\minecraft\world\entity\projectile\EntityPotion.java
+Patching net\minecraft\world\entity\projectile\EntityProjectile.java
+Patching net\minecraft\world\entity\projectile\EntityProjectileThrowable.java
+Patching net\minecraft\world\entity\projectile\EntityShulkerBullet.java
+Patching net\minecraft\world\entity\projectile\EntitySmallFireball.java
+Patching net\minecraft\world\entity\projectile\EntitySnowball.java
+Patching net\minecraft\world\entity\projectile\EntitySpectralArrow.java
+Patching net\minecraft\world\entity\projectile\EntityThrownExpBottle.java
+Patching net\minecraft\world\entity\projectile\EntityThrownTrident.java
+Patching net\minecraft\world\entity\projectile\EntityTippedArrow.java
+Patching net\minecraft\world\entity\projectile\EntityWitherSkull.java
+Patching net\minecraft\world\entity\projectile\IProjectile.java
+Patching net\minecraft\world\entity\projectile\windcharge\AbstractWindCharge.java
+Patching net\minecraft\world\entity\raid\EntityRaider.java
+Patching net\minecraft\world\entity\raid\PersistentRaid.java
+Patching net\minecraft\world\entity\raid\Raid.java
+Patching net\minecraft\world\entity\SaddleStorage.java
+Patching net\minecraft\world\entity\vehicle\AbstractBoat.java
+Patching net\minecraft\world\entity\vehicle\AbstractChestBoat.java
+Patching net\minecraft\world\entity\vehicle\EntityMinecartAbstract.java
+Patching net\minecraft\world\entity\vehicle\EntityMinecartCommandBlock.java
+Patching net\minecraft\world\entity\vehicle\EntityMinecartContainer.java
+Patching net\minecraft\world\entity\vehicle\EntityMinecartTNT.java
+Patching net\minecraft\world\entity\vehicle\NewMinecartBehavior.java
+Patching net\minecraft\world\entity\vehicle\OldMinecartBehavior.java
+Patching net\minecraft\world\entity\vehicle\VehicleEntity.java
+Patching net\minecraft\world\food\FoodInfo.java
+Patching net\minecraft\world\food\FoodMetaData.java
+Patching net\minecraft\world\IInventory.java
+Patching net\minecraft\world\inventory\AbstractCraftingMenu.java
+Patching net\minecraft\world\inventory\Container.java
+Patching net\minecraft\world\inventory\ContainerAccess.java
+Patching net\minecraft\world\inventory\ContainerAnvil.java
+Patching net\minecraft\world\inventory\ContainerAnvilAbstract.java
+Patching net\minecraft\world\inventory\ContainerBeacon.java
+Patching net\minecraft\world\inventory\ContainerBrewingStand.java
+Patching net\minecraft\world\inventory\ContainerCartography.java
+Patching net\minecraft\world\inventory\ContainerChest.java
+Patching net\minecraft\world\inventory\ContainerDispenser.java
+Patching net\minecraft\world\inventory\ContainerEnchantTable.java
+Patching net\minecraft\world\inventory\ContainerFurnace.java
+Patching net\minecraft\world\inventory\ContainerGrindstone.java
+Patching net\minecraft\world\inventory\ContainerHopper.java
+Patching net\minecraft\world\inventory\ContainerHorse.java
+Patching net\minecraft\world\inventory\ContainerLectern.java
+Patching net\minecraft\world\inventory\ContainerLoom.java
+Patching net\minecraft\world\inventory\ContainerMerchant.java
+Patching net\minecraft\world\inventory\ContainerPlayer.java
+Patching net\minecraft\world\inventory\Containers.java
+Patching net\minecraft\world\inventory\ContainerShulkerBox.java
+Patching net\minecraft\world\inventory\ContainerSmithing.java
+Patching net\minecraft\world\inventory\ContainerStonecutter.java
+Patching net\minecraft\world\inventory\ContainerWorkbench.java
+Patching net\minecraft\world\inventory\CrafterMenu.java
+Patching net\minecraft\world\inventory\InventoryCrafting.java
+Patching net\minecraft\world\inventory\InventoryCraftResult.java
+Patching net\minecraft\world\inventory\InventoryEnderChest.java
+Patching net\minecraft\world\inventory\InventoryMerchant.java
+Patching net\minecraft\world\inventory\SlotFurnaceResult.java
+Patching net\minecraft\world\inventory\TransientCraftingContainer.java
+Patching net\minecraft\world\InventoryLargeChest.java
+Patching net\minecraft\world\InventorySubcontainer.java
+Patching net\minecraft\world\item\alchemy\PotionContents.java
+Patching net\minecraft\world\item\component\Consumable.java
+Patching net\minecraft\world\item\component\ConsumableListener.java
+Patching net\minecraft\world\item\component\DeathProtection.java
+Patching net\minecraft\world\item\component\SuspiciousStewEffects.java
+Patching net\minecraft\world\item\consume_effects\ApplyStatusEffectsConsumeEffect.java
+Patching net\minecraft\world\item\consume_effects\ClearAllStatusEffectsConsumeEffect.java
+Patching net\minecraft\world\item\consume_effects\ConsumeEffect.java
+Patching net\minecraft\world\item\consume_effects\RemoveStatusEffectsConsumeEffect.java
+Patching net\minecraft\world\item\consume_effects\TeleportRandomlyConsumeEffect.java
+Patching net\minecraft\world\item\crafting\CraftingManager.java
+Patching net\minecraft\world\item\crafting\FurnaceRecipe.java
+Patching net\minecraft\world\item\crafting\IRecipe.java
+Patching net\minecraft\world\item\crafting\IRecipeComplex.java
+Patching net\minecraft\world\item\crafting\RecipeBlasting.java
+Patching net\minecraft\world\item\crafting\RecipeCampfire.java
+Patching net\minecraft\world\item\crafting\RecipeHolder.java
+Patching net\minecraft\world\item\crafting\RecipeItemStack.java
+Patching net\minecraft\world\item\crafting\RecipeMap.java
+Patching net\minecraft\world\item\crafting\RecipeSmoking.java
+Patching net\minecraft\world\item\crafting\RecipeStonecutting.java
+Patching net\minecraft\world\item\crafting\ShapedRecipes.java
+Patching net\minecraft\world\item\crafting\ShapelessRecipes.java
+Patching net\minecraft\world\item\crafting\SmithingTransformRecipe.java
+Patching net\minecraft\world\item\crafting\SmithingTrimRecipe.java
+Patching net\minecraft\world\item\crafting\TransmuteRecipe.java
+Patching net\minecraft\world\item\enchantment\effects\ApplyMobEffect.java
+Patching net\minecraft\world\item\enchantment\effects\ExplodeEffect.java
+Patching net\minecraft\world\item\enchantment\effects\Ignite.java
+Patching net\minecraft\world\item\enchantment\effects\ReplaceBlock.java
+Patching net\minecraft\world\item\enchantment\effects\ReplaceDisk.java
+Patching net\minecraft\world\item\enchantment\effects\SummonEntityEffect.java
+Patching net\minecraft\world\item\ItemArmorStand.java
+Patching net\minecraft\world\item\ItemBlock.java
+Patching net\minecraft\world\item\ItemBlockWallable.java
+Patching net\minecraft\world\item\ItemBoat.java
+Patching net\minecraft\world\item\ItemBoneMeal.java
+Patching net\minecraft\world\item\ItemBucket.java
+Patching net\minecraft\world\item\ItemDebugStick.java
+Patching net\minecraft\world\item\ItemDye.java
+Patching net\minecraft\world\item\ItemEgg.java
+Patching net\minecraft\world\item\ItemEndCrystal.java
+Patching net\minecraft\world\item\ItemEnderEye.java
+Patching net\minecraft\world\item\ItemEnderPearl.java
+Patching net\minecraft\world\item\ItemFireball.java
+Patching net\minecraft\world\item\ItemFishingRod.java
+Patching net\minecraft\world\item\ItemFlintAndSteel.java
+Patching net\minecraft\world\item\ItemHanging.java
+Patching net\minecraft\world\item\ItemLeash.java
+Patching net\minecraft\world\item\ItemMinecart.java
+Patching net\minecraft\world\item\ItemMonsterEgg.java
+Patching net\minecraft\world\item\ItemProjectileWeapon.java
+Patching net\minecraft\world\item\ItemSign.java
+Patching net\minecraft\world\item\ItemSnowball.java
+Patching net\minecraft\world\item\ItemStack.java
+Patching net\minecraft\world\item\ItemTrident.java
+Patching net\minecraft\world\item\MobBucketItem.java
+Patching net\minecraft\world\item\trading\IMerchant.java
+Patching net\minecraft\world\item\trading\MerchantRecipe.java
+Patching net\minecraft\world\level\block\AbstractCandleBlock.java
+Patching net\minecraft\world\level\block\BigDripleafBlock.java
+Patching net\minecraft\world\level\block\Block.java
+Patching net\minecraft\world\level\block\BlockBamboo.java
+Patching net\minecraft\world\level\block\BlockBambooSapling.java
+Patching net\minecraft\world\level\block\BlockBed.java
+Patching net\minecraft\world\level\block\BlockBeehive.java
+Patching net\minecraft\world\level\block\BlockBell.java
+Patching net\minecraft\world\level\block\BlockButtonAbstract.java
+Patching net\minecraft\world\level\block\BlockCactus.java
+Patching net\minecraft\world\level\block\BlockCake.java
+Patching net\minecraft\world\level\block\BlockCampfire.java
+Patching net\minecraft\world\level\block\BlockCauldron.java
+Patching net\minecraft\world\level\block\BlockChest.java
+Patching net\minecraft\world\level\block\BlockChorusFlower.java
+Patching net\minecraft\world\level\block\BlockCocoa.java
+Patching net\minecraft\world\level\block\BlockCommand.java
+Patching net\minecraft\world\level\block\BlockComposter.java
+Patching net\minecraft\world\level\block\BlockConcretePowder.java
+Patching net\minecraft\world\level\block\BlockCoral.java
+Patching net\minecraft\world\level\block\BlockCoralFan.java
+Patching net\minecraft\world\level\block\BlockCoralFanWall.java
+Patching net\minecraft\world\level\block\BlockCoralPlant.java
+Patching net\minecraft\world\level\block\BlockCrops.java
+Patching net\minecraft\world\level\block\BlockDaylightDetector.java
+Patching net\minecraft\world\level\block\BlockDiodeAbstract.java
+Patching net\minecraft\world\level\block\BlockDirtSnowSpreadable.java
+Patching net\minecraft\world\level\block\BlockDispenser.java
+Patching net\minecraft\world\level\block\BlockDoor.java
+Patching net\minecraft\world\level\block\BlockDragonEgg.java
+Patching net\minecraft\world\level\block\BlockDropper.java
+Patching net\minecraft\world\level\block\BlockEnderPortal.java
+Patching net\minecraft\world\level\block\BlockEndGateway.java
+Patching net\minecraft\world\level\block\BlockFenceGate.java
+Patching net\minecraft\world\level\block\BlockFire.java
+Patching net\minecraft\world\level\block\BlockFireAbstract.java
+Patching net\minecraft\world\level\block\BlockFlowerPot.java
+Patching net\minecraft\world\level\block\BlockFluids.java
+Patching net\minecraft\world\level\block\BlockFungi.java
+Patching net\minecraft\world\level\block\BlockGrassPath.java
+Patching net\minecraft\world\level\block\BlockGrowingTop.java
+Patching net\minecraft\world\level\block\BlockIce.java
+Patching net\minecraft\world\level\block\BlockLeaves.java
+Patching net\minecraft\world\level\block\BlockLectern.java
+Patching net\minecraft\world\level\block\BlockLever.java
+Patching net\minecraft\world\level\block\BlockMagma.java
+Patching net\minecraft\world\level\block\BlockMinecartDetector.java
+Patching net\minecraft\world\level\block\BlockMobSpawner.java
+Patching net\minecraft\world\level\block\BlockMonsterEggs.java
+Patching net\minecraft\world\level\block\BlockMushroom.java
+Patching net\minecraft\world\level\block\BlockNetherWart.java
+Patching net\minecraft\world\level\block\BlockNote.java
+Patching net\minecraft\world\level\block\BlockNylium.java
+Patching net\minecraft\world\level\block\BlockObserver.java
+Patching net\minecraft\world\level\block\BlockPlant.java
+Patching net\minecraft\world\level\block\BlockPortal.java
+Patching net\minecraft\world\level\block\BlockPoweredRail.java
+Patching net\minecraft\world\level\block\BlockPressurePlateAbstract.java
+Patching net\minecraft\world\level\block\BlockPressurePlateBinary.java
+Patching net\minecraft\world\level\block\BlockPressurePlateWeighted.java
+Patching net\minecraft\world\level\block\BlockPumpkinCarved.java
+Patching net\minecraft\world\level\block\BlockRedstoneComparator.java
+Patching net\minecraft\world\level\block\BlockRedstoneLamp.java
+Patching net\minecraft\world\level\block\BlockRedstoneOre.java
+Patching net\minecraft\world\level\block\BlockRedstoneTorch.java
+Patching net\minecraft\world\level\block\BlockReed.java
+Patching net\minecraft\world\level\block\BlockRespawnAnchor.java
+Patching net\minecraft\world\level\block\BlockSapling.java
+Patching net\minecraft\world\level\block\BlockScaffolding.java
+Patching net\minecraft\world\level\block\BlockSign.java
+Patching net\minecraft\world\level\block\BlockSnow.java
+Patching net\minecraft\world\level\block\BlockSoil.java
+Patching net\minecraft\world\level\block\BlockSponge.java
+Patching net\minecraft\world\level\block\BlockStem.java
+Patching net\minecraft\world\level\block\BlockSweetBerryBush.java
+Patching net\minecraft\world\level\block\BlockTallPlant.java
+Patching net\minecraft\world\level\block\BlockTNT.java
+Patching net\minecraft\world\level\block\BlockTrapdoor.java
+Patching net\minecraft\world\level\block\BlockTripwire.java
+Patching net\minecraft\world\level\block\BlockTripwireHook.java
+Patching net\minecraft\world\level\block\BlockTurtleEgg.java
+Patching net\minecraft\world\level\block\BlockVine.java
+Patching net\minecraft\world\level\block\BlockWaterLily.java
+Patching net\minecraft\world\level\block\BlockWitherRose.java
+Patching net\minecraft\world\level\block\BlockWitherSkull.java
+Patching net\minecraft\world\level\block\BuddingAmethystBlock.java
+Patching net\minecraft\world\level\block\CaveVines.java
+Patching net\minecraft\world\level\block\CeilingHangingSignBlock.java
+Patching net\minecraft\world\level\block\ChangeOverTimeBlock.java
+Patching net\minecraft\world\level\block\CrafterBlock.java
+Patching net\minecraft\world\level\block\DecoratedPotBlock.java
+Patching net\minecraft\world\level\block\DropExperienceBlock.java
+Patching net\minecraft\world\level\block\entity\BrushableBlockEntity.java
+Patching net\minecraft\world\level\block\entity\ChiseledBookShelfBlockEntity.java
+Patching net\minecraft\world\level\block\entity\ContainerOpenersCounter.java
+Patching net\minecraft\world\level\block\entity\CrafterBlockEntity.java
+Patching net\minecraft\world\level\block\entity\DecoratedPotBlockEntity.java
+Patching net\minecraft\world\level\block\entity\SculkCatalystBlockEntity.java
+Patching net\minecraft\world\level\block\entity\TileEntity.java
+Patching net\minecraft\world\level\block\entity\TileEntityBanner.java
+Patching net\minecraft\world\level\block\entity\TileEntityBarrel.java
+Patching net\minecraft\world\level\block\entity\TileEntityBeacon.java
+Patching net\minecraft\world\level\block\entity\TileEntityBeehive.java
+Patching net\minecraft\world\level\block\entity\TileEntityBell.java
+Patching net\minecraft\world\level\block\entity\TileEntityBrewingStand.java
+Patching net\minecraft\world\level\block\entity\TileEntityCampfire.java
+Patching net\minecraft\world\level\block\entity\TileEntityChest.java
+Patching net\minecraft\world\level\block\entity\TileEntityCommand.java
+Patching net\minecraft\world\level\block\entity\TileEntityConduit.java
+Patching net\minecraft\world\level\block\entity\TileEntityContainer.java
+Patching net\minecraft\world\level\block\entity\TileEntityDispenser.java
+Patching net\minecraft\world\level\block\entity\TileEntityEndGateway.java
+Patching net\minecraft\world\level\block\entity\TileEntityFurnace.java
+Patching net\minecraft\world\level\block\entity\TileEntityHopper.java
+Patching net\minecraft\world\level\block\entity\TileEntityJukeBox.java
+Patching net\minecraft\world\level\block\entity\TileEntityLectern.java
+Patching net\minecraft\world\level\block\entity\TileEntityShulkerBox.java
+Patching net\minecraft\world\level\block\entity\TileEntitySign.java
+Patching net\minecraft\world\level\block\entity\TileEntityTypes.java
+Patching net\minecraft\world\level\block\entity\trialspawner\TrialSpawner.java
+Patching net\minecraft\world\level\block\entity\trialspawner\TrialSpawnerData.java
+Patching net\minecraft\world\level\block\entity\vault\VaultBlockEntity.java
+Patching net\minecraft\world\level\block\entity\vault\VaultServerData.java
+Patching net\minecraft\world\level\block\EyeblossomBlock.java
+Patching net\minecraft\world\level\block\grower\WorldGenTreeProvider.java
+Patching net\minecraft\world\level\block\LayeredCauldronBlock.java
+Patching net\minecraft\world\level\block\LightningRodBlock.java
+Patching net\minecraft\world\level\block\MultifaceSpreader.java
+Patching net\minecraft\world\level\block\piston\BlockPiston.java
+Patching net\minecraft\world\level\block\PointedDripstoneBlock.java
+Patching net\minecraft\world\level\block\PowderSnowBlock.java
+Patching net\minecraft\world\level\block\RootedDirtBlock.java
+Patching net\minecraft\world\level\block\SculkBlock.java
+Patching net\minecraft\world\level\block\SculkCatalystBlock.java
+Patching net\minecraft\world\level\block\SculkSensorBlock.java
+Patching net\minecraft\world\level\block\SculkShriekerBlock.java
+Patching net\minecraft\world\level\block\SculkSpreader.java
+Patching net\minecraft\world\level\block\SculkVeinBlock.java
+Patching net\minecraft\world\level\block\state\BlockBase.java
+Patching net\minecraft\world\level\block\WallHangingSignBlock.java
+Patching net\minecraft\world\level\border\WorldBorder.java
+Patching net\minecraft\world\level\chunk\Chunk.java
+Patching net\minecraft\world\level\chunk\ChunkGenerator.java
+Patching net\minecraft\world\level\chunk\ChunkGeneratorStructureState.java
+Patching net\minecraft\world\level\chunk\ChunkSection.java
+Patching net\minecraft\world\level\chunk\IChunkAccess.java
+Patching net\minecraft\world\level\chunk\NibbleArray.java
+Patching net\minecraft\world\level\chunk\status\ChunkStatusTasks.java
+Patching net\minecraft\world\level\chunk\storage\IChunkLoader.java
+Patching net\minecraft\world\level\chunk\storage\RegionFile.java
+Patching net\minecraft\world\level\chunk\storage\RegionFileCache.java
+Patching net\minecraft\world\level\chunk\storage\SerializableChunkData.java
+Patching net\minecraft\world\level\CommandBlockListenerAbstract.java
+Patching net\minecraft\world\level\dimension\end\EnderDragonBattle.java
+Patching net\minecraft\world\level\dimension\end\EnumDragonRespawn.java
+Patching net\minecraft\world\level\entity\EntityAccess.java
+Patching net\minecraft\world\level\entity\PersistentEntitySectionManager.java
+Patching net\minecraft\world\level\gameevent\GameEventDispatcher.java
+Patching net\minecraft\world\level\gameevent\vibrations\VibrationSystem.java
+Patching net\minecraft\world\level\GameRules.java
+Patching net\minecraft\world\level\GeneratorAccess.java
+Patching net\minecraft\world\level\IBlockAccess.java
+Patching net\minecraft\world\level\IWorldWriter.java
+Patching net\minecraft\world\level\levelgen\ChunkGeneratorAbstract.java
+Patching net\minecraft\world\level\levelgen\ChunkProviderFlat.java
+Patching net\minecraft\world\level\levelgen\feature\EndPlatformFeature.java
+Patching net\minecraft\world\level\levelgen\MobSpawnerPatrol.java
+Patching net\minecraft\world\level\levelgen\MobSpawnerPhantom.java
+Patching net\minecraft\world\level\levelgen\structure\PersistentStructureLegacy.java
+Patching net\minecraft\world\level\levelgen\structure\StructurePiece.java
+Patching net\minecraft\world\level\levelgen\structure\structures\DesertPyramidStructure.java
+Patching net\minecraft\world\level\levelgen\structure\structures\EndCityPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\IglooPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\MineshaftPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\NetherFortressPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\OceanRuinPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\ShipwreckPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\StrongholdPieces.java
+Patching net\minecraft\world\level\levelgen\structure\structures\SwampHutPiece.java
+Patching net\minecraft\world\level\levelgen\structure\StructureStart.java
+Patching net\minecraft\world\level\levelgen\structure\templatesystem\DefinedStructure.java
+Patching net\minecraft\world\level\levelgen\structure\templatesystem\DefinedStructureInfo.java
+Patching net\minecraft\world\level\material\FluidTypeFlowing.java
+Patching net\minecraft\world\level\material\FluidTypeLava.java
+Patching net\minecraft\world\level\MobSpawnerAbstract.java
+Patching net\minecraft\world\level\portal\BlockPortalShape.java
+Patching net\minecraft\world\level\portal\PortalTravelAgent.java
+Patching net\minecraft\world\level\portal\TeleportTransition.java
+Patching net\minecraft\world\level\RayTrace.java
+Patching net\minecraft\world\level\redstone\DefaultRedstoneWireEvaluator.java
+Patching net\minecraft\world\level\redstone\ExperimentalRedstoneWireEvaluator.java
+Patching net\minecraft\world\level\redstone\NeighborUpdater.java
+Patching net\minecraft\world\level\saveddata\maps\WorldMap.java
+Patching net\minecraft\world\level\ServerExplosion.java
+Patching net\minecraft\world\level\SpawnerCreature.java
+Patching net\minecraft\world\level\storage\Convertable.java
+Patching net\minecraft\world\level\storage\loot\LootDataType.java
+Patching net\minecraft\world\level\storage\loot\LootTable.java
+Patching net\minecraft\world\level\storage\loot\predicates\LootItemConditionSurvivesExplosion.java
+Patching net\minecraft\world\level\storage\WorldDataServer.java
+Patching net\minecraft\world\level\storage\WorldNBTStorage.java
+Patching net\minecraft\world\level\World.java
+Patching net\minecraft\world\level\WorldAccess.java
+Rebuilding Forked projects.... 
+Resetting Spigot-API to Bukkit...
+HEAD is now at dde0ff02 SPIGOT-8001: Add BlockBrushEvent
+  Applying patches to Spigot-API...
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: Spigot Timings
+Applying: BungeeCord Support
+Applying: Add respawn API.
+Applying: Add support for fetching hidden players
+Applying: Silenceable Lightning API
+Applying: Add PlayerSpawnLocationEvent.
+Applying: BungeeCord Chat API
+Applying: Add restart API.
+  Patches applied cleanly to Spigot-API
+Resetting Spigot-Server to CraftBukkit...
+HEAD is now at 5fe922bc7 CraftBukkit $ Sun Mar 09 14:45:43 PDT 2025
+  Applying patches to Spigot-Server...
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: Spigot Configuration
+Applying: Crop Growth Rates
+Applying: Merge tweaks and configuration
+Applying: Async Operation Catching
+Applying: View Distance
+Applying: Spigot Timings
+Applying: Fix Mob Spawning Relative to View Distance
+Applying: Item Despawn Rate
+Applying: Entity Activation Range
+Applying: Metrics
+Applying: Entity Tracking Ranges
+Applying: Hopper Customisations
+Applying: Allow Disabling of Command Logging
+Applying: Allow Disabling of Command TabComplete
+Applying: Configurable Messages
+Applying: Properly Close Inventories
+Applying: Disallow Interaction With Self
+Applying: Prevent Ghost Players Caused by Plugins
+Applying: Implement respawn API.
+Applying: Arrow Despawn Rate
+Applying: Watchdog Thread.
+Applying: BungeeCord Support
+Applying: Allow Disabling Zombie Villager Aggression
+Applying: Configurable Amount of Netty Threads
+Applying: Save ticks lived to nbttag
+Applying: Add Option to Nerf Mobs from Spawners
+Applying: Allow statistics to be disabled/forced
+Applying: Catch stalling on corrupted map data / NBT arrays.
+Applying: Allow toggling of ZombiePigmen spawning in portal blocks
+Applying: Highly Optimized Tick Loop
+Applying: Configurable Ping Sample Size
+Applying: Add Optional Tick Shuffling
+Applying: Spam Filter Exclusions
+Applying: Add Option to Silence CommandBlock Console
+Applying: Add support for fetching hidden players
+Applying: Allow vanilla commands to be the main version of a command
+Applying: Implement Silenceable Lightning API
+Applying: Configurable dragon death and wither spawn sounds
+Applying: Display 'Spigot' in client crashes, server lists and Mojang stats
+Applying: Print Stack on InternalException
+Applying: Use Offline Player Data Once if Required.
+Applying: Fix Player Banning
+Applying: Prevent NoClassDefError crash and notify on crash
+Applying: Fix race condition that could kill connections before they were initiated
+Applying: Configurable UserCache cap
+Applying: Implement PlayerSpawnLocationEvent.
+Applying: Configurable save-on-stop-only for UserCache
+Applying: Limit block placement/interaction packets
+Applying: Better item validation
+Applying: Further Seed Customisation
+Applying: Safer JSON Loading
+Applying: Add CommandLine EULA Flag
+Applying: Prevent a crash involving attributes
+Applying: Make "moved wrongly" limit configurable
+Applying: Make "moved too quickly" limit configurable
+Applying: Apply NBTReadLimiter to more things.
+Applying: Allow Attribute Capping.
+Applying: Plug WorldMap Memory Leak
+Applying: Add Hunger Config Values
+Applying: Make debug logging togglable.
+Applying: Limit TNT Detonations per tick
+Applying: Configurable Hanging Tick
+Applying: BungeeCord Chat API
+Applying: Allow Capping (Tile)Entity Tick Time.
+Applying: Use Map for getPlayer(String) lookup.
+Applying: Clear Packet Queue on Disconnect
+Applying: Configurable Advancement Disabling
+Applying: Add creative mode NBT permissions
+Applying: Allow Reading Old Large Chunks
+Applying: Add log-villager-deaths option
+Applying: Allow Disabling Player Data Saving
+Applying: Configurable Thunder Chance
+Applying: Configurable Below Zero Generation
+Applying: Add unload-frozen-chunks option
+  Patches applied cleanly to Spigot-Server
+*** Spigot patches applied!
+Compiling Spigot & Spigot-API
+Picked up _JAVA_OPTIONS: -Xmx2048M
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spigot-API                                                         [jar]
+[INFO] Spigot-Parent                                                      [pom]
+[INFO] Spigot                                                             [jar]
+[INFO] 
+[INFO] ----------------------< org.spigotmc:spigot-api >-----------------------
+[INFO] Building Spigot-API 1.21.4-R0.1-SNAPSHOT                           [1/3]
+[INFO]   from Spigot-API\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ spigot-api ---
+[INFO] Deleting C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\target
+[INFO] 
+[INFO] --- scriptus:0.5.0:describe (default) @ spigot-api ---
+[INFO] Set property "describe" to "git-Spigot-API-f31ed79"
+[INFO] Set property "project.build.outputTimestamp" to "1741556745"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spigot-api ---
+[INFO] skip non existing resourceDirectory C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spigot-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1251 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/Art.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/Art.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/entity/HumanEntity.java: Some input files use or override a deprecated API that is marked for removal.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/entity/HumanEntity.java: Recompile with -Xlint:removal for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/World.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/main/java/org/bukkit/World.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spigot-api ---
+[INFO] skip non existing resourceDirectory C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ spigot-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 59 source files with javac [debug release 17] to target\test-classes
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/CoalTypeTest.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/CoalTypeTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/metadata/FixedMetadataValueTest.java: Some input files use or override a deprecated API that is marked for removal.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/metadata/FixedMetadataValueTest.java: Recompile with -Xlint:removal for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/conversations/ConversationContextTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-API/src/test/java/org/bukkit/conversations/ConversationContextTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ spigot-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ spigot-api ---
+[INFO] Building jar: C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\target\spigot-api-1.21.4-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.5.3:shade (default) @ spigot-api ---
+[INFO] Including com.google.guava:guava:jar:33.3.1-jre in the shaded jar.
+[INFO] Including com.google.guava:failureaccess:jar:1.0.2 in the shaded jar.
+[INFO] Including com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.2 in the shaded jar.
+[INFO] Including org.checkerframework:checker-qual:jar:3.43.0 in the shaded jar.
+[INFO] Including com.google.errorprone:error_prone_annotations:jar:2.28.0 in the shaded jar.
+[INFO] Including com.google.j2objc:j2objc-annotations:jar:3.0.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.11.0 in the shaded jar.
+[INFO] Including org.joml:joml:jar:1.10.8 in the shaded jar.
+[INFO] Including net.md-5:bungeecord-chat:jar:1.20-R0.2 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:2.2 in the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] error_prone_annotations-2.28.0.jar, gson-2.11.0.jar, j2objc-annotations-3.0.0.jar, snakeyaml-2.2.jar define 1 overlapping classes: 
+[WARNING]   - META-INF.versions.9.module-info
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ spigot-api ---
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\pom.xml to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot-api\1.21.4-R0.1-SNAPSHOT\spigot-api-1.21.4-R0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\target\spigot-api-1.21.4-R0.1-SNAPSHOT.jar to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot-api\1.21.4-R0.1-SNAPSHOT\spigot-api-1.21.4-R0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-API\target\spigot-api-1.21.4-R0.1-SNAPSHOT-shaded.jar to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot-api\1.21.4-R0.1-SNAPSHOT\spigot-api-1.21.4-R0.1-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] ---------------------< org.spigotmc:spigot-parent >---------------------
+[INFO] Building Spigot-Parent dev-SNAPSHOT                                [2/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ spigot-parent ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ spigot-parent ---
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\pom.xml to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot-parent\dev-SNAPSHOT\spigot-parent-dev-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------< org.spigotmc:spigot >-------------------------
+[INFO] Building Spigot 1.21.4-R0.1-SNAPSHOT                               [3/3]
+[INFO]   from Spigot-Server\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ spigot ---
+[INFO] Deleting C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target
+[INFO] 
+[INFO] --- scriptus:0.5.0:describe (ex-spigot) @ spigot ---
+[INFO] Set property "spigot.desc" to "4446-Spigot-e5a64e7"
+[INFO] Set property "project.build.outputTimestamp" to "1740129568"
+[INFO] 
+[INFO] --- scriptus:0.5.0:describe (ex-craftbukkit) @ spigot ---
+[INFO] Set property "craftbukkit.desc" to "-e954502"
+[INFO] Set property "project.build.outputTimestamp" to "1741498881"
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default) @ spigot ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spigot ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ spigot ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1435 source files with javac [debug release 21] to target\classes
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/net/minecraft/commands/CommandDispatcher.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/net/minecraft/commands/CommandDispatcher.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/org/bukkit/craftbukkit/entity/CraftEntity.java: Some input files use or override a deprecated API that is marked for removal.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/org/bukkit/craftbukkit/entity/CraftEntity.java: Recompile with -Xlint:removal for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/com/mojang/brigadier/tree/CommandNode.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/main/java/com/mojang/brigadier/tree/CommandNode.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spigot ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ spigot ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 120 source files with javac [debug release 21] to target\test-classes
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/ArtTest.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/ArtTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/craftbukkit/inventory/CompositeSerialization.java: Some input files use or override a deprecated API that is marked for removal.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/craftbukkit/inventory/CompositeSerialization.java: Recompile with -Xlint:removal for details.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/craftbukkit/inventory/ItemStackTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/a219studios/Desktop/new_mc_server2025/Spigot/Spigot-Server/src/test/java/org/bukkit/craftbukkit/inventory/ItemStackTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ spigot ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ spigot ---
+[INFO] Building jar: C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.5.3:shade (default) @ spigot ---
+[INFO] Including org.spigotmc:minecraft-server:jar:1.21.4-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Excluding org.spigotmc:spigot-api:jar:1.21.4-R0.1-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.google.guava:guava:jar:33.3.1-jre from the shaded jar.
+[INFO] Excluding com.google.guava:failureaccess:jar:1.0.2 from the shaded jar.
+[INFO] Excluding com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava from the shaded jar.
+[INFO] Excluding org.checkerframework:checker-qual:jar:3.43.0 from the shaded jar.
+[INFO] Excluding com.google.errorprone:error_prone_annotations:jar:2.28.0 from the shaded jar.
+[INFO] Excluding com.google.j2objc:j2objc-annotations:jar:3.0.0 from the shaded jar.
+[INFO] Excluding com.google.code.gson:gson:jar:2.11.0 from the shaded jar.
+[INFO] Excluding org.joml:joml:jar:1.10.8 from the shaded jar.
+[INFO] Excluding net.md-5:bungeecord-chat:jar:1.20-R0.2 from the shaded jar.
+[INFO] Excluding org.yaml:snakeyaml:jar:2.2 from the shaded jar.
+[INFO] Excluding jline:jline:jar:2.12.1 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-iostreams:jar:2.24.1 from the shaded jar.
+[INFO] Excluding org.ow2.asm:asm-commons:jar:9.7.1 from the shaded jar.
+[INFO] Excluding org.ow2.asm:asm:jar:9.7.1 from the shaded jar.
+[INFO] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4 from the shaded jar.
+[INFO] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.13.4 from the shaded jar.
+[INFO] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.13.4.2 from the shaded jar.
+[INFO] Excluding com.github.oshi:oshi-core:jar:6.6.5 from the shaded jar.
+[INFO] Excluding com.github.stephenc.jcip:jcip-annotations:jar:1.0-1 from the shaded jar.
+[INFO] Excluding com.microsoft.azure:msal4j:jar:1.17.2 from the shaded jar.
+[INFO] Excluding com.mojang:authlib:jar:6.0.57 from the shaded jar.
+[INFO] Excluding com.google.code.findbugs:jsr305:jar:3.0.2 from the shaded jar.
+[INFO] Excluding com.mojang:brigadier:jar:1.3.10 from the shaded jar.
+[INFO] Excluding com.mojang:datafixerupper:jar:8.0.16 from the shaded jar.
+[INFO] Excluding com.mojang:jtracy:jar:1.0.29 from the shaded jar.
+[INFO] Excluding com.mojang:logging:jar:1.5.10 from the shaded jar.
+[INFO] Excluding com.nimbusds:content-type:jar:2.3 from the shaded jar.
+[INFO] Excluding com.nimbusds:lang-tag:jar:1.7 from the shaded jar.
+[INFO] Excluding com.nimbusds:nimbus-jose-jwt:jar:9.40 from the shaded jar.
+[INFO] Excluding com.nimbusds:oauth2-oidc-sdk:jar:11.18 from the shaded jar.
+[INFO] Excluding commons-io:commons-io:jar:2.17.0 from the shaded jar.
+[INFO] Excluding io.netty:netty-buffer:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-codec:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-common:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-handler:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-resolver:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-transport:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-transport-classes-epoll:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-transport-native-epoll:jar:linux-aarch_64:4.1.115.Final from the shaded jar.
+[INFO] Excluding io.netty:netty-transport-native-unix-common:jar:4.1.115.Final from the shaded jar.
+[INFO] Excluding it.unimi.dsi:fastutil:jar:8.5.15 from the shaded jar.
+[INFO] Excluding net.java.dev.jna:jna:jar:5.15.0 from the shaded jar.
+[INFO] Excluding net.java.dev.jna:jna-platform:jar:5.15.0 from the shaded jar.
+[INFO] Excluding net.minidev:accessors-smart:jar:2.5.1 from the shaded jar.
+[INFO] Excluding net.minidev:json-smart:jar:2.5.1 from the shaded jar.
+[INFO] Excluding net.sf.jopt-simple:jopt-simple:jar:5.0.4 from the shaded jar.
+[INFO] Excluding org.apache.commons:commons-lang3:jar:3.17.0 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-api:jar:2.24.1 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-core:jar:2.24.1 from the shaded jar.
+[INFO] Excluding org.apache.logging.log4j:log4j-slf4j2-impl:jar:2.24.1 from the shaded jar.
+[INFO] Excluding org.lz4:lz4-java:jar:1.8.0 from the shaded jar.
+[INFO] Excluding org.slf4j:slf4j-api:jar:2.0.16 from the shaded jar.
+[INFO] Excluding commons-lang:commons-lang:jar:2.6 from the shaded jar.
+[INFO] Excluding com.googlecode.json-simple:json-simple:jar:1.1.1 from the shaded jar.
+[INFO] Excluding org.xerial:sqlite-jdbc:jar:3.47.0.0 from the shaded jar.
+[INFO] Excluding com.mysql:mysql-connector-j:jar:9.1.0 from the shaded jar.
+[INFO] Excluding com.google.protobuf:protobuf-java:jar:4.26.1 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-resolver-provider:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-model:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-model-builder:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.codehaus.plexus:plexus-interpolation:jar:1.26 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-artifact:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-builder-support:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2 from the shaded jar.
+[INFO] Excluding org.apache.maven:maven-repository-metadata:jar:3.9.6 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-api:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-spi:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-util:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-impl:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-named-locks:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.codehaus.plexus:plexus-utils:jar:3.5.1 from the shaded jar.
+[INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.maven.resolver:maven-resolver-transport-http:jar:1.9.18 from the shaded jar.
+[INFO] Excluding org.apache.httpcomponents:httpclient:jar:4.5.14 from the shaded jar.
+[INFO] Excluding org.apache.httpcomponents:httpcore:jar:4.4.16 from the shaded jar.
+[INFO] Excluding commons-codec:commons-codec:jar:1.16.0 from the shaded jar.
+[INFO] Excluding org.slf4j:jcl-over-slf4j:jar:1.7.36 from the shaded jar.
+[INFO] Dependency-reduced POM written at: C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\dependency-reduced-pom.xml
+[WARNING] minecraft-server-1.21.4-R0.1-SNAPSHOT.jar, spigot-1.21.4-R0.1-SNAPSHOT.jar define 1183 overlapping class and resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING]   - net.minecraft.CrashReport
+[WARNING]   - net.minecraft.advancements.AdvancementHolder
+[WARNING]   - net.minecraft.advancements.AdvancementTree
+[WARNING]   - net.minecraft.advancements.AdvancementTree$a
+[WARNING]   - net.minecraft.commands.CommandDispatcher
+[WARNING]   - net.minecraft.commands.CommandDispatcher$1
+[WARNING]   - net.minecraft.commands.CommandDispatcher$1$1
+[WARNING]   - net.minecraft.commands.CommandDispatcher$ServerType
+[WARNING]   - net.minecraft.commands.CommandDispatcher$b
+[WARNING]   - 1173 more...
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT.jar with C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- specialsource:2.0.3:remap (remap-members) @ spigot ---
+[INFO] Replacing original artifact with remapped artifact.
+[INFO] Replacing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT.jar with C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT-remapped.jar
+[INFO] 
+[INFO] --- checksum:1.11:artifacts (default) @ spigot ---
+[INFO] 
+[INFO] --- checksum:1.11:dependencies (default) @ spigot ---
+[INFO] 
+[INFO] --- assembly:3.7.1:single (default) @ spigot ---
+[INFO] Reading assembly descriptor: C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server/src/assembly/bootstrap.xml
+[INFO] Artifact com.mojang:authlib:pom:6.0.57 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:authlib:pom:6.0.57 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:jtracy:pom:1.0.29 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:jtracy:pom:1.0.29 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:brigadier:pom:1.3.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:brigadier:pom:1.3.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:logging:pom:1.5.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:logging:pom:1.5.10 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:datafixerupper:pom:8.0.16 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.mojang:datafixerupper:pom:8.0.16 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Building jar: C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT-bootstrap.jar
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ spigot ---
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\dependency-reduced-pom.xml to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot\1.21.4-R0.1-SNAPSHOT\spigot-1.21.4-R0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\a219studios\Desktop\new_mc_server2025\Spigot\Spigot-Server\target\spigot-1.21.4-R0.1-SNAPSHOT.jar to C:\Users\a219studios\.m2\repository\org\spigotmc\spigot\1.21.4-R0.1-SNAPSHOT\spigot-1.21.4-R0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spigot-API 1.21.4-R0.1-SNAPSHOT .................... SUCCESS [ 16.655 s]
+[INFO] Spigot-Parent dev-SNAPSHOT ......................... SUCCESS [  0.000 s]
+[INFO] Spigot 1.21.4-R0.1-SNAPSHOT ........................ SUCCESS [ 55.111 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:11 min
+[INFO] Finished at: 2025-03-09T14:47:04-07:00
+[INFO] ------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total Time: 1 minute 34 seconds
+
+Success! Everything completed successfully. Copying final .jar files now.
+Copying spigot-1.21.4-R0.1-SNAPSHOT-bootstrap.jar to C:\Users\a219studios\Desktop\new_mc_server2025\spigot-1.21.4.jar
+  - Saved as .\spigot-1.21.4.jar
