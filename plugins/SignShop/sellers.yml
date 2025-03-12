@@ -1,10 +1,25 @@
 sellers:
+  -7/203/41/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -7/203/41/world
+    items:
+    - null
   -1179/51/550/Hub:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []
     containables: []
     shopworld: Hub
     sign: -1179/51/550/Hub
+    items: []
+  -3/206/44/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -3/206/44/world
     items:
     - null
   -108/202/55/world:
@@ -13,8 +28,7 @@ sellers:
     containables: []
     shopworld: world
     sign: -108/202/55/world
-    items:
-    - null
+    items: []
   5/202/42/world:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []

@@ -30,13 +30,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 111.28848
+        bodyYaw: -6.9356995
         world: world
         x: 23.5
         y: 201.0
         z: 0.5
-        yaw: 92.2544
-        pitch: -1.2736
+        yaw: -6.9357
+        pitch: -29.9141
       skintrait:
         signature: RzcbgP/x4ULBwbBFMkaZhpb3/Df7kHr5oZLqOtjcmNlT8yktixLIiow4fVv/UcAgklQnUld4mCUwcnhJHLrXlZZ6gzqCthzTvbdyAeuyegvn2sZGYFz5hnhR4hcutZy0coxdYEipm5QGBxiSR0J00c04wDzvFjzfg8yrvloLNU0kOwlJhEVLT/bJBg30SwnGI2VN2P13JWbgx/sMDky0k581qBUrqMvhuilX903H2BhGEo9yPmAdgbGlB2ji3MCucFw//NAmFZiSqOWaTBTdggZjf4bQXhxARDnbsx2qGtuNUyB91q7TJyx7HassEBkRgKM3sOB/rhpQMKE151fWHoMoYufP/V8jNdRKKNq2ujDJc9YGDmzZInZ/WDK6uJvusyTDVT2/+oK+3wHa9TZL4XRv2gwvM1jXcUKPrbZ16JgpZKg2tQHV+9QA1ntYgp0Kucn+f7P3Z/DRdIkoStVsvjt4sI/0AK8RSrRNsS8Ti/zHku/7iZYSMC6zvtc4Ln+eo5d6kbOCtLf0OwhIi3nSV8XfpuJ+qaH1NKWrTqVXt3rYMg/30EbSkwUS4L1PhYyvClkoBZiJcClP+M16q3esU/dip28kA0HL0ZIBaNtyxSbXTJFyIvJ/ZWVp92DPJStGw/e4PcpHt3YFfQT4kpMPySyhUyLvsGkJSRYeJI+wnL4=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU3OTcwOTU0NiwKICAicHJvZmlsZUlkIiA6ICIwNjlhNzlmNDQ0ZTk0NzI2YTViZWZjYTkwZTM4YWFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTIwMDlhNDkyNWI1OGYwMmM3N2RhZGMzZWNlZjA3ZWE0Yzc0NzJmNjRlMGZkYzMyY2U1NTIyNDg5MzYyNjgwIgogICAgfQogIH0KfQ==
@@ -100,13 +100,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 158.5975
+        bodyYaw: -153.74576
         world: world
         x: -0.2391
         y: 209.0
         z: 44.2099
-        yaw: 175.3773
-        pitch: 29.2479
+        yaw: -153.7458
+        pitch: -34.3105
       skintrait:
         signature: NC6p2wXNqoBfu8AX7a4AaLAa18H/yziphCbHlEyoygLiUIXz/Lxl7U/uc5ra3ldjMSNV8Pjur9CN3pQ8Io5+/ArPlRNTElzuKYLTEXlx3sNzpm1sbAzQX1wCL9wELkrEATKtxdLwj292m66uNtkUrh0lbd37mcI94PBF04nctDGJW7kqBA7FklmTRJDfYeDKxJukE+wgQNDmWjVpTkgI/dvk4cM+/Hpp7vu2ghs1JzXO2mR21RBpM4bL3VZUQ7/OK8YnDFnV3qcCsvKE7mxQrHmtbT4X8PAPoRWQ1H9AzhiVLj+QLikhrG278EhRjGA5JJGjMylWYv1coMAP9oqc1di3zpVblmG14jrIwIravWdbblIPqi9sIUrTXVik5dkOX2+lLQCQKGlVWZUO1Bu2TBxr3cdoanL+8gjOH1jb/cRbX6k0JOfQZsjF92Lg/BjyECgrsAZ9/hMbfevfUl2eECbw6BB530+e6zDdwf+uCLGTmYABZgOr7B7s4CLWXoHvUJDJ6xQ1tZRCkpN8j08QicdmLte73JR2uJQJ/Jjuu593INjmZNiBV3aqzLm+rumEgal+SXLwKQWpOEixZ18NPQMhReOR3mQpCxPFR0i4oCNVuxLK5Of4MFWX1goEXXPzBrLsXUV3QLIpwal8Yzle9FK1IrVICtm57vgDbbwkHEM=
         skinName: ImPlayingTooMuch
@@ -273,13 +273,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -39.070705
+        bodyYaw: 118.754105
         world: world
         x: -1.1052
         y: 160.0
         z: 16.3043
-        yaw: -39.0707
-        pitch: -44.1081
+        yaw: 138.7541
+        pitch: -18.8717
       skintrait:
         signature: Pfz86fhAzAb/IscuIu28lNptWYJqjcVGg5cKq6eMbrxJM10+O8zVUe2WMXWgGts6227tf4NfFMBEsEKNnTsVBu2BHGtpZ3pZu61lbA1o7diu/XtpbK9SwvpgXUlCpuqzLjrfGMpU4vrK/3WzcArfJRTew8UP9LWl09bJjuysg5t1/RrXir9ns9vAmrJDYGAM3NbNbz1wnfiwQ/Hybf679NEFxyzZPJ8+IBq1GW3BeQ7sZ9IJF+68rq+YFerrXgmkrRH9WqnaUo8gJMawfqRvSAg+bAom2R8k0sn4eLkd8sMBBZVfsQfPPFXX8DdmuOH+E2jtsO9fa4sgZi/7jIgn1LFU6XSPWN499Ludxdhrv7UwNTmq4IEJDE0LTvZbHkjGL+bVmaxFQQm5pol53kjEo9Xuc1oCQYh6wCXgIeDv7KfkA9mlUYsjyUALXBJo0cPKkFTyHpQmkHxyeLYvu3xAAE3BrKGgdJLg0mbYmB9VyqlsL67gWtzCSfhbk4qkhSlYwpG5aie/vZh+Hb/GBfaANBzlOtvMyyS5Km8wSYjoyRp8swsjcoDlVPQtVrn5bl7zPymCW3roRCpPT25ICaGu7vyJA8y5+8/6dU5btNjcO3raOk+fFttWTXzf4gcqNT1Ofp5XCNCSCCDrfHyhoIl0Lg0dUIe7xH8imGoG/11oXUI=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU3OTk3ODQzMywKICAicHJvZmlsZUlkIiA6ICJkNDc3ZGE3ZjNiYjg0YTBmYThkNzZiYTVmZjlkMjEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZXJnb24xNDQxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhZDdlMTQ3MTFjZDgzNTFjY2Q0OGQ5ZTFkMzVhMzcwYzQ0YzIxYzMzNTgzMDJmMDdlNjYxOTU1OTI2N2MwMDQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
@@ -523,7 +523,7 @@ npc:
         pitch: 55.8
       inventory:
         '0':
-          type: command_block
+          type: wooden_axe
           amount: 1
       owner:
         uuid: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
@@ -532,7 +532,11 @@ npc:
         tags:
           '0': CITIZENS_NPC
       spawned: true
-    traitnames: owner,scoreboardtrait,spawned,skintrait,location,inventory,type
+      equipment:
+        hand:
+          type: wooden_axe
+          amount: 1
+    traitnames: owner,scoreboardtrait,spawned,skintrait,equipment,location,inventory,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -622,7 +626,15 @@ npc:
         tags:
           '0': CITIZENS_NPC
       spawned: true
-    traitnames: owner,scoreboardtrait,spawned,skintrait,location,inventory,type,targetable
+      equipment:
+        hand:
+          type: command_block
+          amount: 1
+      inventory:
+        '0':
+          type: command_block
+          amount: 1
+    traitnames: owner,scoreboardtrait,spawned,skintrait,equipment,location,inventory,type,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -638,13 +650,13 @@ npc:
         signature: tnB3s/KR+ddAmKio8VM2sYrbMV2ZXM1qvsDmgImvWVMuQ4CckqA6NNYc0Ah2VzCeJ/LU357TQws8lBOP0C5myNBr4EWAeD0wiaIHX0cCbpDTECbH2RLMxlXPzSaR+LphqbLsKAhjg4U9vieqYdGt8KxCSWmz3rhtgNAwPPlqofrcSLzZ/NKp+jucCJRiRmLIM90k989vGMqm3+cyiTwmz5u6EJOqHxxhtCHQULG9Qrq5Kv4k5BcSbJHiYm9g2xx8rnYTrU9it3hcMy/GFhK17EM7Yb6MAH4BAjvuSA+4XyureS2E2Hcnlp6ejs1f/dUJ5yjs2HSXgoxo+JLWBwHpiCJZMTPu2GjPTT/wmt+nk2vpB9pGN1E9Ies87NCKlBlTQNp6GhBvJSZoXvtB5RU2Iq1f6Z1Xkt4M3jEckagXLqsESP63JCtIJMf+mDJ84OsQ+j13I+VeQgVJL9Icn1cPM/y9Z8VYmruUGS47pghfLd1XP7V43DmFpLmwhw7NQihnL3+HmAex72AgvUdZKkA29gw0AmMsQhtMFOKdUfGJeu3p/aKHzAPncP0fPsRU31oCqfv3RRQbHcSbV5PeKpMSG+AV9aj3+WOy1CWnSwM0lwIlI4rqZrkcafpxrq862ZB+GTj4kPwqGwcsE9o8jNdASVR0Gaahlbsx0/88B0HDivI=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0MTYwNDc1MSwKICAicHJvZmlsZUlkIiA6ICJhYThhMmM1OTBhM2I0YTc0YjJjNjg2Y2JkYTQwMDZlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaGFkb3dEaW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2YWNkMDZlODQ4M2IxNzZlOGVhMzlmYzEyZmUxMDVlYjNhMmE0OTcwZjUxMDAwNTdlOWQ4NGQ0YjYwYmRmYTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -65.2744
+        bodyYaw: 143.289
         world: world
         x: -6.0039
         y: 160.0
         z: 18.4877
-        yaw: -65.2744
-        pitch: -37.0653
+        yaw: 162.9185
+        pitch: -19.5575
       owner:
         uuid: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
       lookclose:
@@ -757,13 +769,13 @@ npc:
         skinName: Knight
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0NDEwNjU5MiwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -22.111328
+        bodyYaw: -44.92015
         world: world
         x: -2.5
         y: 203.0
         z: -22.5
-        yaw: -22.1113
-        pitch: 3.0492
+        yaw: -44.9202
+        pitch: -14.0964
       inventory:
         '0':
           type: golden_sword
@@ -802,13 +814,13 @@ npc:
         skinName: Knight
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0NDEwNjU5MiwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
       location:
-        bodyYaw: 6.4677353
+        bodyYaw: -41.85215
         world: world
         x: 3.5
         y: 203.0
         z: -22.5
-        yaw: 6.4677
-        pitch: 3.2698
+        yaw: -41.8521
+        pitch: -14.3253
       inventory:
         '0':
           type: golden_sword
@@ -855,13 +867,13 @@ npc:
         tags:
           '0': CITIZENS_NPC
       location:
-        bodyYaw: -70.71202
+        bodyYaw: -92.00993
         world: world
         x: 13.5
         y: 200.4
         z: -10.5
-        yaw: -70.712
-        pitch: -21.9153
+        yaw: -92.0099
+        pitch: -31.6547
       skintrait:
         signature: wNHCGzt+WZA7RoFWOU+kNH5fIoH3MS8tds2IX1jMqV4rNoe9JBqn/Yf2NSGp/3otVJDglNQDr5zWaA4l0nfCZTLwvg2j/HQwuvnR2EABJcnh0H3JKot9e0NzMF0ngxR9G/AiCJuexcAKSE1++IgopIRJwpBchkjBVzOv1mbjAbkDNtqLnxKlbgh+diRpLUPz0IKTM7j7vyprmURa+4jgcnoii1Z+1WN+gRBH1LfvG5PHt2UGIrK0fIM1iTEWuyXT53n93Ubt5BEaWiIlMmarDrTHKAAURGUW5Z2J1UdLTPxf7jVu9wkJoY3CHi6273iBf+q2Gws4p5YoF17EkzLacYxxIbY4sQpiaT/oyBJMoNdmZTloRPCN9D1crhCA0hDjk+U1fel+79EsbBn4Ksq4A7NpvaKXJ4gp5upERAEfOfQZ1TNrs4JZwYCGVaTfrTVobml8dWXFn6D5CSoyJVBbBu003zM54l6oaL/da178O8H1A+K4aZHiGL+I7Ap6iYl62TIGJKWdLFQgexwiCPjowcnFlkXzMWb5KW30pTF3QffjNexrJ5SI3REJiCKqlLyEXE7HXCfABBPi3+db2OpjDV7lrlCRoLhr90xKrzA3gbUPBZqZ7i5ETIuHXCMeC7AJGndxBW18N2WDGFX03LorNybS7IL9Iyro1H+WkbXKI+c=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY1Mjc4ODQzMSwKICAicHJvZmlsZUlkIiA6ICIwZGJmOGYxN2U0NmU0NTUyYmEzZDNkYmExYTA0M2ZlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4NTc4MTUwOWFkNTY3ZDVjMTllYjQyMjY1MmQ2NmM2ZDRjOGE5MWRkNGQyNTkyOGM0ZDEzNDkxZDUzODhhZjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzI5NDEwMDU3ZTMyYWJlYzAyZDg3MGVjYjUyZWMyNWZiNDVlYTgxZTc4NWE3ODU0YWU4NDI5ZDcyMzZjYTI2IgogICAgfQogIH0KfQ==
@@ -955,13 +967,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 139.945
+        bodyYaw: -6.171829
         world: world
         x: -1.7
         y: 201.0
         z: 24.5255
-        yaw: 159.8259
-        pitch: 0.0
+        yaw: -6.1718
+        pitch: -45.3115
       lookclose:
         range: 10.0
         enabled: true

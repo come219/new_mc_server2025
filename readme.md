@@ -1,9 +1,12 @@
 
-minecraft server 
+minecraft server readme file
 
-readme file
+ip: 138.68.158.48:25565
+
+bukkit -> spigot -> paper?? 
 
 
+- added auto bin folder
 
 
 copy world error fix:
