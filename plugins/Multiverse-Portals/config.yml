@@ -1,7 +1,7 @@
 wand: 271
 useonmove: true
 portalsdefaulttonether: false
-enforceportalaccess: true
+enforceportalaccess: false
 portalcooldown: 1000
 clearonremove: false
 teleportvehicles: true

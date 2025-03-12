@@ -1,0 +1,63 @@
+Arena:
+  prefix: '&6[Arena]&e'
+  signDisplayName: '&6[Arena]'
+  gameSize:
+    nTeams: '2'
+    teamSize: '1'
+  nLives: '1'
+  victoryCondition: LastManStanding
+  times: {}
+  tracking:
+    database: arena
+    rated: true
+    useTrackerMessages: false
+  defaults:
+    options:
+    - woolTeams
+  onEnter:
+    options:
+    - storeExperience
+    - storeGamemode
+    - storeItems
+    - storeHealth
+    - storeHunger
+    - storeMagic
+    - storeHeroClass
+    - clearInventory
+    - clearExperience
+    - deEnchant
+    - gameMode=SURVIVAL
+    - flightOff
+  onLeave:
+    options:
+    - restoreExperience
+    - restoreGamemode
+    - restoreItems
+    - restoreHealth
+    - restoreHunger
+    - restoreMagic
+    - restoreHeroClass
+    - clearInventory
+    - deEnchant
+  onStart:
+    options:
+    - teleportIn
+    - pvpOn
+    - blockBreakOff
+  onComplete:
+    options:
+    - teleportOut
+  onSpawn:
+    giveClass:
+      default: gladiator
+    options:
+    - health=20
+    - hunger=20
+    - respawnWithClass
+  onDeath:
+    options:
+    - clearInventory
+  winner:
+    options:
+    - health=20
+    - hunger=20

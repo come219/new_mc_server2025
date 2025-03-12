@@ -1,0 +1,40 @@
+FreeForAll:
+    enabled: true
+    database: ffa
+    rated: true
+    prefix: "&c[FFA]&e"
+    victoryCondition: PlayerKills
+    nTeams: 2+
+    teamSize: 1
+    nLives: 1
+    announcements: ### Override the match victory announcement as the event has one too
+        onVictory:  [ dontannounce ]
+    defaults:
+        options: [woolTeams]
+    preReqs:
+        options: [clearInventory]
+    onEnter:
+        options: [storeAll]
+    onLeave:
+        options: [restoreAll]
+    onJoin:
+        options: [teleportIn]
+    onOpen:
+        options: [pvpOff]
+    onPrestart:
+        options: [pvpOff]
+    onStart:
+        options: [pvpOn]
+    onComplete:
+        options: [teleportOut]
+    onDeath:
+        options: [randomRespawn, keepInventory]
+    onSpawn:
+        options: [enchants, health=20, hunger=20]
+        enchants:
+            - speed:3
+    winner:
+        options: [enchants,experience=300, health=20, hunger=20]
+        enchants:
+            - speed:2:900
+            - resistance:2:900

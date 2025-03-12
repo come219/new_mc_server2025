@@ -9,3 +9,441 @@ portals:
     location: 10.0,222.0,-26.0:10.0,225.0,-25.0
     world: world
     destination: superflat
+  hub_member_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1134.0,50.0,533.0:-1134.0,53.0,534.0
+    world: Hub
+    destination: world
+  world_hub_member_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 30.0,201.0,1.0:30.0,204.0,2.0
+    world: world
+    destination: p:hub_member_exit
+  survival_pvp_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -29.0,202.0,1.0:-29.0,206.0,4.0
+    world: world
+    destination: Survival
+  member_hub_down:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 47.0,222.0,-27.0:47.0,226.0,-21.0
+    world: world
+    destination: p:member_hub_up
+  member_hub_up:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 30.0,201.0,-2.0:30.0,204.0,-1.0
+    world: world
+    destination: p:member_hub_down
+  guildworld_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 29.0,222.0,-7.0:30.0,226.0,-7.0
+    world: world
+    destination: GuildWorld
+  guildworld_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 16.0,149.0,0.0:16.0,153.0,4.0
+    world: GuildWorld
+    destination: p:guildworld_entry
+  pvpworld_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1168.0,50.0,502.0:-1161.0,59.0,502.0
+    world: Hub
+    destination: pvp
+  pvpworld_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -25.0,88.0,74.0:-21.0,91.0,74.0
+    world: pvp
+    destination: world
+  peaceful_survival_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -29.0,202.0,-4.0:-29.0,206.0,-1.0
+    world: world
+    destination: peaceful
+  minigames_portal_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1194.0,49.0,529.0:-1194.0,53.0,533.0
+    world: Hub
+    destination: minigames
+  minigames_return_home:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 79.0,-59.0,0.0:79.0,-54.0,3.0
+    world: minigames
+    destination: world
+  gladiator_arena_spectator:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 89.0,-59.0,31.0:89.0,-55.0,34.0
+    world: minigames
+    destination: p:gladiator_arena_spectator_entry
+  gladiator_spectator_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -221.0,46.0,124.0:-221.0,46.0,124.0
+    world: minigames
+    destination: p:minigames_return_home
+  gladiator_arena_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -222.0,46.0,123.0:-222.0,46.0,123.0
+    world: minigames
+  paintball_arena_spectator:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 94.0,-59.0,38.0:97.0,-55.0,38.0
+    world: minigames
+    destination: p:paintball_arena_spectator_exit
+  paintball_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -383.0,58.0,62.0:-380.0,62.0,62.0
+    world: minigames
+  paintball_arena_spectator_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -383.0,58.0,70.0:-380.0,62.0,70.0
+    world: minigames
+    destination: p:minigames_return_home
+  jungle_desert_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -328.0,39.0,234.0:-328.0,44.0,237.0
+    world: minigames
+    destination: p:minigames_return_home
+  jungle_desert_spectator:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 101.0,-59.0,30.0:101.0,-54.0,33.0
+    world: minigames
+    destination: p:jungle_desert_spectator_entry
+  killgod_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 19.0,222.0,-10.0:21.0,226.0,-10.0
+    world: world
+    destination: p:killgod_spectator_exit
+  killgod_spectator_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1675.0,64.0,546.0:-1675.0,68.0,546.0
+    world: Hub
+    destination: p:killgod_spectator_entry
+  wood_maze_spectator_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -23.0,40.0,206.0:-19.0,45.0,206.0
+    world: minigames
+    destination: p:minigames_return_home
+  wood_maze_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 96.0,-60.0,-28.0:99.0,-56.0,-28.0
+    world: minigames
+    destination: p:wood_maze_spectator_exit
+  onevone_arena_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -24.0,49.0,-207.0:-24.0,52.0,-207.0
+    world: minigames
+    destination: p:minigames_return_home
+  onevone_arena_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 113.0,-61.0,-24.0:113.0,-56.0,-21.0
+    world: minigames
+    destination: p:onevone_arena_exit
+  spleef_spectator_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -220.0,59.0,-302.0:-220.0,62.0,-302.0
+    world: minigames
+    destination: p:minigames_return_home
+  spleef_spectator_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 80.0,-60.0,-31.0:82.0,-56.0,-31.0
+    world: minigames
+    destination: p:spleef_spectator_exit
+  flyingangels1_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -57.0,120.0,-23.0:-54.0,124.0,-23.0
+    world: minigames
+    destination: p:minigames_return_home
+  flyingangels1_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 50.0,-57.0,-5.0:50.0,-52.0,-1.0
+    world: minigames
+    destination: p:flyingangels1_exit
+  spectator_lobby_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -2.0,201.0,47.0:1.0,205.0,47.0
+    world: world
+    destination: p:minigames_return_home
+  classes_spectate_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -3.0,202.0,56.0:0.0,205.0,56.0
+    world: world
+    destination: p:classes_spectate_exit
+  classes_spectate_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -80.0,210.0,53.0:-79.0,214.0,53.0
+    world: world
+    destination: p:classes_spectate_entry
+  skyblock_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 11.0,222.0,-30.0:11.0,224.0,-29.0
+    world: world
+    destination: minigames2
+  class_select2_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -190.0,214.0,58.0:-185.0,218.0,58.0
+    world: world
+    destination: p:minigames_return_home
+  test2world_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 96.0,-59.0,-12.0:100.0,-55.0,-12.0
+    world: testworld
+    destination: p:minigames_return_home
+  north_spawn_gate_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -6.0,203.0,-31.0:-5.0,209.0,-30.0
+    world: world
+    destination: p:north_spawn_gate_exit
+  north_spawn_gate_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 9.0,42.0,-193.0:16.0,45.0,-193.0
+    world: world
+    destination: p:north_spawn_gate_entry
+  old_members_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -74.0,59.0,506.0:-74.0,61.0,508.0
+    world: Hub
+    destination: Hub
+  old_members_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1134.0,50.0,528.0:-1134.0,53.0,529.0
+    world: Hub
+    destination: p:old_members_exit
+  old_minigames_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -2016.0,58.0,549.0:-2016.0,60.0,551.0
+    world: Hub
+    destination: Hub
+  old_minigames_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1186.0,50.0,514.0:-1186.0,52.0,516.0
+    world: Hub
+    destination: p:old_minigames_entry
+  quick_teleport_down:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 5.0,204.0,-31.0:6.0,208.0,-30.0
+    world: world
+    destination: p:quick_teleport_up
+  quick_teleport_up:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -7.0,159.0,-20.0:-6.0,164.0,-19.0
+    world: world
+    destination: p:quick_teleport_down

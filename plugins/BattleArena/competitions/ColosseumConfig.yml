@@ -1,0 +1,70 @@
+Colosseum:
+  name: Colosseum
+  command: Colosseum
+  prefix: '&8[Colosseum]'
+  signDisplayName: 8[Colosseum]
+  gameSize:
+    nTeams: '4'
+    teamSize: '1'
+  nLives: '2'
+  victoryCondition: LASTMANSTANDING
+  tracking:
+    database: col
+    rated: true
+    useTrackerMessages: false
+  arenaType: Colosseum
+  arenaClass: Arena
+  onEnter:
+    options:
+    - STOREALL
+  onLeave:
+    options:
+    - RESTOREALL
+  preReqs:
+    options:
+    - clearInventory
+  onJoin:
+    options:
+    - pvpOff
+  onPreStart:
+    options:
+    - woolTeams
+    - teleportIn
+    - pvpOff
+  onStart:
+    options:
+    - pvpOn
+  onComplete:
+    options:
+    - teleportOut
+    - clearInventory
+  onSpawn:
+    giveItems:
+    - DIAMOND_SWORD DAMAGE_ALL:1 1
+    - BOW 1
+    - ARROW 32
+    - DIAMOND_HELMET 1
+    - DIAMOND_CHESTPLATE 1
+    - DIAMOND_LEGGINGS 1
+    - DIAMOND_BOOTS 1
+    enchants:
+    - speed:1:60
+    options:
+    - woolTeams
+    - health=20.0
+    - hunger=20
+    - deEnchant
+    - respawnWithClass
+  onDeath:
+    options:
+    - clearInventory
+    - respawn
+  winners:
+    enchants:
+    - speed:1:900
+    - prot:1:900
+    options:
+    - health=20.0
+    - hunger=20
+    - experience=300
+    - money=1.0

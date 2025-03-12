@@ -1,0 +1,113 @@
+version: 1.1
+
+### You can add new classes here
+classes:
+    gladiator:
+        displayName: "&4Gladiator" ### Used for signs
+        items:
+            - diamond_sword: sharp:1 1
+            - bow: 1
+            - arrow: 32
+            - diamond_helmet: 1
+            - diamond_chestplate: 1
+            - diamond_leggings: 1
+            - diamond_boots: 1
+            - potion: effects="heal:2" displayName="Potion of Healing" 1 # potion of healing 2
+            - potion: effects="regeneration:1:45" displayName="Potion of Regeneration" 1 # potion of regen
+            - splash_potion: effects="harm:1" displayName="Splash Potion of Harming" 1 # splash potion of harming 1
+        enchants:
+            - speed:1:120
+            - resistance:1:120
+    bowsman:
+        displayName: "&2Archer" ### Used for signs
+        items:
+            - iron_sword: sharp:1 1
+            - bow: flame:2 power:3 punch:2 1
+            - arrow: 32
+            - leather_helmet: 1
+            - iron_chestplate: prot:3 1
+            - leather_leggings: 1
+            - leather_boots: 1
+            - potion: effects="heal:2" displayName="Potion of Healing" 1 # potion of healing 2
+            - potion: effects="regeneration:1:45" displayName="Potion of Regeneration" 1 # potion of regen
+            - splash_potion: effects="harm:1" displayName="Splash Potion of Harming" 1 # splash potion of harming 1
+    monk:
+        displayName: "&fMonk" ### Used for signs
+        items:
+            - leather_helmet: 1
+            - leather_chestplate: 1
+            - leather_leggings: 1
+            - leather_boots: 1
+            - potion: effects="heal:2" displayName="Potion of Healing" 1 # potion of healing 2
+            - potion: effects="regeneration:1:45" displayName="Potion of Regeneration" 1 # potion of regen
+            - splash_potion: effects="harm:1" displayName="Splash Potion of Harming" 1 # splash potion of harming 1
+        enchants:
+            - strength:2:900 # increase attack power
+            - speed:2:900 # increase movement
+            - haste:2:900 # increase attack speed
+            - resistance:1:900 # reduce damage taken
+            - jump:2:900 # jump 2 blocks higher than normal
+            - regen:1:60 # regen life
+            
+    # new classes     
+    Swordsman:
+        displayName: "&1Swordsman" ### Used for signs
+        items:
+            - Iron_sword: sharp:1 1
+            - Iron_helm: 1
+            - Iron_chest: 1
+            - Iron_leggings: 1
+            - Iron_boots: 1
+            - Cooked_Beef: 5
+    Archer:
+        displayName: "&6Archer" ### Used for signs
+        items:
+            - bow: power:2 punch:1 1
+            - arrow: 32
+            - Chainmail_helm: 1
+            - Chainmail_chest: 1
+            - Chainmail_leggings: 1
+            - Chainmail_boots: 1
+            - Cooked_Beef: 5
+    Mage:
+        displayName: "&4Mage" ### Used for signs
+        items:
+            - leather_helm: 1
+            - leather_chest: 1
+            - leather_leggings: 1
+            - leather_boots: 1
+            - Cooked_Beef: 5
+            - 373:16460 14
+            - 373:16420 2
+            - 373:16453 1
+            - 373:8193 1
+            - 373:8226 1
+            - 385:0 2
+            - 373:16456 1
+            - 373:16428 4
+            - 373:16426 2
+    Puncher:
+        displayName: "&2Puncher" ### Used for signs
+        items:
+        enchants:
+            - speed:3:300
+            - strength:2:300
+            - resistance:1:300
+            - jump:2:300
+            - regen:3:60
+    Angel:
+        displayName: "&fAngel" ### Used for signs
+        items:
+            - Bow: power:5 sharpness:3 1
+            - arrow: 25
+            - 373:16460 10
+            - 373:8229 2
+            - 357: 16
+    God:
+        displayName: "&5God"
+        items:
+            - 277:0 1
+            - 256:0 1
+            - 269:0 1
+            - 284:0 1
+            - 273:0 1

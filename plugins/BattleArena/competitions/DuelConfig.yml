@@ -1,0 +1,28 @@
+Duel:
+    enabled: true
+    prefix: "&a[Duel]&e"
+    victoryCondition: LastManStanding
+    gameSize:
+      nTeams: 2+
+      teamSize: 1+
+    nLives: '1'
+    defaults:
+        options: [woolTeams, duelOnly]
+    preReqs:
+        options: []
+    onEnter:
+        options: [storeAll]
+    onLeave:
+        options: [restoreAll]
+    onStart:
+        options: [teleportIn, blockBreakOff, pvpOn]
+    onSpawn:
+        options: [deEnchant, hunger=20, health=20]
+        giveClass:
+            default: gladiator
+    onDeath:
+        options: [clearInventory]
+    onComplete:
+        options: [teleportOut]
+    winner:
+        options: [health=20, hunger=20]

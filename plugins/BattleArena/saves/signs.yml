@@ -1,0 +1,11 @@
+colosseumteam:
+  Hub,-1180,53,550:
+    location: Hub,-1180,53,550
+  world,-7,204,41:
+    location: world,-7,204,41
+1v1:
+  Hub,-1178,53,550:
+    location: Hub,-1178,53,550
+class_select:
+  world,-7,202,41:
+    location: world,-7,202,41
