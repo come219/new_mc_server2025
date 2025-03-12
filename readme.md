@@ -16,3 +16,11 @@ World testworld is a duplicate of another world and has been prevented from load
 [00:26:49] [Server thread/ERROR]: [Multiverse-Core] We don't really know why this is. Contact the developer of your server software!
 [00:26:49] [Server thread/ERROR]: [Multiverse-Core] Server version info: 4446-Spigot-e5a64e7-e954502 (MC: 1.21.4)
 >
+
+
+
+git fetch --all
+
+git branch old_backup_main_n
+
+git reset --hard origin/main 
