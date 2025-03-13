@@ -1,12 +1,4 @@
 sellers:
-  -7/203/41/world:
-    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
-    activatables: []
-    containables: []
-    shopworld: world
-    sign: -7/203/41/world
-    items:
-    - null
   -1179/51/550/Hub:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []
@@ -14,20 +6,26 @@ sellers:
     shopworld: Hub
     sign: -1179/51/550/Hub
     items: []
-  -3/206/44/world:
+  -3/202/44/world:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []
     containables: []
     shopworld: world
-    sign: -3/206/44/world
-    items:
-    - null
-  -108/202/55/world:
+    sign: -3/202/44/world
+    items: []
+  -2/212/35/world:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []
     containables: []
     shopworld: world
-    sign: -108/202/55/world
+    sign: -2/212/35/world
+    items: []
+  42/224/-13/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: 42/224/-13/world
     items: []
   5/202/42/world:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
@@ -36,12 +34,160 @@ sellers:
     shopworld: world
     sign: 5/202/42/world
     items: []
-  -7/202/44/world:
+  -7/203/45/world:
     owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
     activatables: []
     containables: []
     shopworld: world
-    sign: -7/202/44/world
+    sign: -7/203/45/world
+    items: []
+  -7/202/43/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -7/202/43/world
+    items: []
+  -3/204/44/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -3/204/44/world
+    items: []
+  3/211/35/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: 3/211/35/world
+    items: []
+  -1187/60/-197/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: Hub
+    sign: -1187/60/-197/Hub
+    items: []
+  -49/55/538/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: Hub
+    sign: -49/55/538/Hub
+    items: []
+  -108/202/55/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -108/202/55/world
+    items: []
+  43/223/-14/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: 43/223/-14/world
+    items: []
+  -1/202/56/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -1/202/56/world
+    items: []
+  42/225/-13/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: 42/225/-13/world
+    items: []
+  -7/202/42/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -7/202/42/world
+    items: []
+  -2/211/35/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -2/211/35/world
+    items: []
+  -3/202/55/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -3/202/55/world
+    items: []
+  -1178/52/550/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: Hub
+    sign: -1178/52/550/Hub
+    items: []
+  -7/204/45/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -7/204/45/world
+    items: []
+  42/222/-13/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: 42/222/-13/world
+    items: []
+  -2/210/35/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -2/210/35/world
+    items: []
+  -1186/60/-199/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables:
+    - -1187/60/-197/Hub
+    containables: []
+    shopworld: Hub
+    sign: -1186/60/-199/Hub
+    items: []
+  -4/205/44/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -4/205/44/world
+    items: []
+  -49/55/540/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: Hub
+    sign: -49/55/540/Hub
+    items: []
+  -2/213/35/world:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -2/213/35/world
+    items: []
+  -1178/53/550/Hub:
+    owner: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
+    activatables: []
+    containables: []
+    shopworld: Hub
+    sign: -1178/53/550/Hub
     items: []
 deferred_sellers: {}
 invalid_sellers: {}

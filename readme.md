@@ -8,6 +8,8 @@ bukkit -> spigot -> paper??
 
 - added auto bin folder
 
+- RAM: init 1gb + max 3gb ram ====> init 4gb + max 6gb ram
+
 
 copy world error fix:
 

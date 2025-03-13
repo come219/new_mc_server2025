@@ -447,3 +447,33 @@ portals:
     location: -7.0,159.0,-20.0:-6.0,164.0,-19.0
     world: world
     destination: p:quick_teleport_down
+  old_shop_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1165.0,59.0,-170.0:-1163.0,61.0,-170.0
+    world: Hub
+    destination: world
+  old_shop_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -19.0,201.0,-16.0:-19.0,204.0,-16.0
+    world: world
+    destination: p:old_shop_exit
+  donate_portal_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -1165.0,62.0,-498.0:-1163.0,64.0,-498.0
+    world: Hub
+    destination: world

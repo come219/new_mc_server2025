@@ -9,3 +9,6 @@ colosseumteam:
 class_select:
   world,-7,202,41:
     location: world,-7,202,41
+discoball2:
+  world,5,204,44:
+    location: world,5,204,44
