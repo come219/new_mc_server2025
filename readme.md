@@ -19,7 +19,7 @@ World testworld is a duplicate of another world and has been prevented from load
 [00:26:49] [Server thread/ERROR]: [Multiverse-Core] Server version info: 4446-Spigot-e5a64e7-e954502 (MC: 1.21.4)
 >
 
-
+screen -X -S mc_server quit
 
 git fetch --all
 

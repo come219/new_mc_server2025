@@ -30,13 +30,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 37.711273
+        bodyYaw: 2.603325
         world: world
         x: 23.5
         y: 201.0
         z: 0.5
-        yaw: 37.7113
-        pitch: -9.6381
+        yaw: 2.6033
+        pitch: 0.0
       skintrait:
         signature: RzcbgP/x4ULBwbBFMkaZhpb3/Df7kHr5oZLqOtjcmNlT8yktixLIiow4fVv/UcAgklQnUld4mCUwcnhJHLrXlZZ6gzqCthzTvbdyAeuyegvn2sZGYFz5hnhR4hcutZy0coxdYEipm5QGBxiSR0J00c04wDzvFjzfg8yrvloLNU0kOwlJhEVLT/bJBg30SwnGI2VN2P13JWbgx/sMDky0k581qBUrqMvhuilX903H2BhGEo9yPmAdgbGlB2ji3MCucFw//NAmFZiSqOWaTBTdggZjf4bQXhxARDnbsx2qGtuNUyB91q7TJyx7HassEBkRgKM3sOB/rhpQMKE151fWHoMoYufP/V8jNdRKKNq2ujDJc9YGDmzZInZ/WDK6uJvusyTDVT2/+oK+3wHa9TZL4XRv2gwvM1jXcUKPrbZ16JgpZKg2tQHV+9QA1ntYgp0Kucn+f7P3Z/DRdIkoStVsvjt4sI/0AK8RSrRNsS8Ti/zHku/7iZYSMC6zvtc4Ln+eo5d6kbOCtLf0OwhIi3nSV8XfpuJ+qaH1NKWrTqVXt3rYMg/30EbSkwUS4L1PhYyvClkoBZiJcClP+M16q3esU/dip28kA0HL0ZIBaNtyxSbXTJFyIvJ/ZWVp92DPJStGw/e4PcpHt3YFfQT4kpMPySyhUyLvsGkJSRYeJI+wnL4=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU3OTcwOTU0NiwKICAicHJvZmlsZUlkIiA6ICIwNjlhNzlmNDQ0ZTk0NzI2YTViZWZjYTkwZTM4YWFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTIwMDlhNDkyNWI1OGYwMmM3N2RhZGMzZWNlZjA3ZWE0Yzc0NzJmNjRlMGZkYzMyY2U1NTIyNDg5MzYyNjgwIgogICAgfQogIH0KfQ==
@@ -100,13 +100,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 148.53839
+        bodyYaw: -3.2918854
         world: world
         x: -0.2391
         y: 209.0
         z: 44.2099
-        yaw: 168.5384
-        pitch: 34.2904
+        yaw: -3.2919
+        pitch: 39.2164
       skintrait:
         signature: NC6p2wXNqoBfu8AX7a4AaLAa18H/yziphCbHlEyoygLiUIXz/Lxl7U/uc5ra3ldjMSNV8Pjur9CN3pQ8Io5+/ArPlRNTElzuKYLTEXlx3sNzpm1sbAzQX1wCL9wELkrEATKtxdLwj292m66uNtkUrh0lbd37mcI94PBF04nctDGJW7kqBA7FklmTRJDfYeDKxJukE+wgQNDmWjVpTkgI/dvk4cM+/Hpp7vu2ghs1JzXO2mR21RBpM4bL3VZUQ7/OK8YnDFnV3qcCsvKE7mxQrHmtbT4X8PAPoRWQ1H9AzhiVLj+QLikhrG278EhRjGA5JJGjMylWYv1coMAP9oqc1di3zpVblmG14jrIwIravWdbblIPqi9sIUrTXVik5dkOX2+lLQCQKGlVWZUO1Bu2TBxr3cdoanL+8gjOH1jb/cRbX6k0JOfQZsjF92Lg/BjyECgrsAZ9/hMbfevfUl2eECbw6BB530+e6zDdwf+uCLGTmYABZgOr7B7s4CLWXoHvUJDJ6xQ1tZRCkpN8j08QicdmLte73JR2uJQJ/Jjuu593INjmZNiBV3aqzLm+rumEgal+SXLwKQWpOEixZ18NPQMhReOR3mQpCxPFR0i4oCNVuxLK5Of4MFWX1goEXXPzBrLsXUV3QLIpwal8Yzle9FK1IrVICtm57vgDbbwkHEM=
         skinName: ImPlayingTooMuch
@@ -180,13 +180,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -120.34578
+        bodyYaw: -53.437424
         world: world
         x: -26.5
         y: 201.0
         z: 3.5
-        yaw: -120.3458
-        pitch: -7.7524
+        yaw: -53.4374
+        pitch: -6.2753
       skintrait:
         signature: Vsozysv1zYSOxwt+OudkLSYs9CNxc4n2QJx91AbgqVwBSO+dPA4ODnxpSVh2uefE7XPhPShYfy7jNxjwneUffA3Uj1LZ1uPnUGC5R4AGkilWWtIcm9EFszV6WVZIwQV6GjcXViaCOW3vdOfeacb6zxxtC6eOyl+s98e/wy5OwCv7H8QJ/YhDVAGKVmsDIxw8HuPLoXgCWZT50uMTC9MdC8TdtsojRe/vU/iMVMiAMC+McG+LvJlGr/jeGotz+9aJumBZXmuyVgR4rR5NQAJdgkZWxbx+uNDjrni06VmbI76SbpXgqqKDjicK0QyhUOR0c9wmFxLRXk1//KGwG/dF+14XA/GPRbE50Z5FFr9r3KH6pjbuGmq73b7dkqTq1kgZnsXRWSsXhgqE7icz07sV7o6g0Me469c5JZNF4bxtdfRBDW8d57SIaJOUQHkbXudWV++FO3PAQTNkDn9G35TeZICD4MfBCQ8vEhqQlYZkwA/jCVeQQ1DZUucKOn6ttLRbKufarrSDTKvNKfJe5YzFd2bCqih+mvm7qQzOk5ppgvyDE70wnNpTsF2yN7eAvGyaxYk+C95aAnNt7zB6VOnNSGQHjdz4t8yczo0PZ8rzxC3bXAqZMx8sUiwqpLzOFl3AxrZNOFOle9APTmLADGpzJq5OvG47pqMKhE0jyOfVFwQ=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU4MDQ1OTUxOCwKICAicHJvZmlsZUlkIiA6ICJmODRjNmE3OTBhNGU0NWUwODc5YmNkNDllYmQ0YzRlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZXJvYnJpbmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1OGFjNTc4ZDhkNDZiMDljNjFlNjUwOGNkOTFhNDI3NjA2ODI0MzQ0MjM0ZThlOGViMDgyY2FjMjhiNWI0MCIKICAgIH0KICB9Cn0=
@@ -224,13 +224,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -129.9295
+        bodyYaw: -27.433723
         world: world
         x: -26.5
         y: 201.0
         z: -2.5
-        yaw: -129.9295
-        pitch: -2.4106
+        yaw: -27.4337
+        pitch: -8.9921
       skintrait:
         signature: hKn45h281+Uh2gDoVwsTtD2vQ0HuFGgj7igKTHRhfsbN1LlRG/0ETQs/0nFz09BM4ms12p9qAsPvJX9V+Vh1/rq8CfOrNb6hl4s59ZGvhIa1EXAfnwHBhDZPVUyEiaxqTCqYXTPG3VEV8mxziEGvM7VYGr+vtSG4EBrWK8UrQc1VC82aqQ004N2k85VRDgJdo5sZqUmL7d7xu9Q4y0RJiU8uE0KMuFc/vHmp3mrCd8i3s1uFePKIZafCK+zbella6IHuaKFTccUa5A7mHQ7i/xdpxTpO9cWF0rEi3XdH0W6B5LCPusEXOk1eDbxFCn/uY2UjIPsE21Ei5qxuNxM8Z/Y8yWfqG/afLCeyLIz1S76N3tJ0LxnZNzcEBsgLE9YzlEizNRi0VTyNFpuVIuU8H34tVX4sUDuRtgmwS4zhqyk0KIjGy3FfAAHzG6IIrvjZpdlsMvje6FZOsFol7yD+4VzlbBMywRnzpshBp1BBZSNckyctkJ1ti6GiWBmqHkZfi/rplIUlYSCo9TBwADwAIKEAgGYhQh4BL2wMhtAvi4zpFIb3WYUoJoGafNT3L6030IK81KdjVq+Rx1X2F6koHsbXMbT1KgWeA/PyaskgW2Zx0W6dZAD1ICnl2JBQEUlgNwHd46CObpoEXE4b+6+JXHVeZWCltU6vv6IYBeRngBs=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU3OTg5NjQ1MCwKICAicHJvZmlsZUlkIiA6ICI4NjY3YmE3MWI4NWE0MDA0YWY1NDQ1N2E5NzM0ZWVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE1YmQwMTZiM2M5YTFiOTI3MmU0OTI5ZTMwODI3YTY3YmU0ZWJiMjE5MDE3YWRiYmM0YTRkMjJlYmQ1YjEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1M2NhYzhiNzc5ZmU0MTM4M2U2NzVlZTJiODYwNzFhNzE2NThmMjE4MGY1NmZiY2U4YWEzMTVlYTcwZTJlZDYiCiAgICB9CiAgfQp9
@@ -319,7 +319,7 @@ npc:
         bodyYaw: -177.44742
         world: world
         x: -3.4144
-        y: 159.4
+        y: 160.0
         z: 16.458
         yaw: -177.4474
         pitch: 11.4988
@@ -769,13 +769,13 @@ npc:
         skinName: Knight
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0NDEwNjU5MiwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -15.543907
+        bodyYaw: -23.067238
         world: world
         x: -2.5
         y: 203.0
         z: -22.5
-        yaw: -15.5439
-        pitch: 1.6892
+        yaw: -23.0672
+        pitch: 5.185
       inventory:
         '0':
           type: golden_sword
@@ -814,13 +814,13 @@ npc:
         skinName: Knight
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0NDEwNjU5MiwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
       location:
-        bodyYaw: 12.163948
+        bodyYaw: 8.093666
         world: world
         x: 3.5
         y: 203.0
         z: -22.5
-        yaw: 12.1639
-        pitch: 1.7139
+        yaw: 8.0937
+        pitch: 0.7282
       inventory:
         '0':
           type: golden_sword
@@ -867,13 +867,13 @@ npc:
         tags:
           '0': CITIZENS_NPC
       location:
-        bodyYaw: -24.141388
+        bodyYaw: 89.25795
         world: world
         x: 13.5
-        y: 200.4
+        y: 201.0
         z: -10.5
-        yaw: -24.1414
-        pitch: -5.9363
+        yaw: 105.2862
+        pitch: -0.1031
       skintrait:
         signature: wNHCGzt+WZA7RoFWOU+kNH5fIoH3MS8tds2IX1jMqV4rNoe9JBqn/Yf2NSGp/3otVJDglNQDr5zWaA4l0nfCZTLwvg2j/HQwuvnR2EABJcnh0H3JKot9e0NzMF0ngxR9G/AiCJuexcAKSE1++IgopIRJwpBchkjBVzOv1mbjAbkDNtqLnxKlbgh+diRpLUPz0IKTM7j7vyprmURa+4jgcnoii1Z+1WN+gRBH1LfvG5PHt2UGIrK0fIM1iTEWuyXT53n93Ubt5BEaWiIlMmarDrTHKAAURGUW5Z2J1UdLTPxf7jVu9wkJoY3CHi6273iBf+q2Gws4p5YoF17EkzLacYxxIbY4sQpiaT/oyBJMoNdmZTloRPCN9D1crhCA0hDjk+U1fel+79EsbBn4Ksq4A7NpvaKXJ4gp5upERAEfOfQZ1TNrs4JZwYCGVaTfrTVobml8dWXFn6D5CSoyJVBbBu003zM54l6oaL/da178O8H1A+K4aZHiGL+I7Ap6iYl62TIGJKWdLFQgexwiCPjowcnFlkXzMWb5KW30pTF3QffjNexrJ5SI3REJiCKqlLyEXE7HXCfABBPi3+db2OpjDV7lrlCRoLhr90xKrzA3gbUPBZqZ7i5ETIuHXCMeC7AJGndxBW18N2WDGFX03LorNybS7IL9Iyro1H+WkbXKI+c=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY1Mjc4ODQzMSwKICAicHJvZmlsZUlkIiA6ICIwZGJmOGYxN2U0NmU0NTUyYmEzZDNkYmExYTA0M2ZlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4NTc4MTUwOWFkNTY3ZDVjMTllYjQyMjY1MmQ2NmM2ZDRjOGE5MWRkNGQyNTkyOGM0ZDEzNDkxZDUzODhhZjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzI5NDEwMDU3ZTMyYWJlYzAyZDg3MGVjYjUyZWMyNWZiNDVlYTgxZTc4NWE3ODU0YWU4NDI5ZDcyMzZjYTI2IgogICAgfQogIH0KfQ==
@@ -967,13 +967,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -4.508194
+        bodyYaw: -18.227089
         world: world
         x: -1.7
         y: 201.0
         z: 24.5255
-        yaw: -4.5082
-        pitch: -57.9124
+        yaw: -18.2271
+        pitch: -9.5564
       lookclose:
         range: 10.0
         enabled: true
@@ -1170,13 +1170,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 133.90274
+        bodyYaw: -8.1996
         world: world
         x: -16.6825
         y: 201.5
         z: -13.9404
-        yaw: 138.6536
-        pitch: -12.0419
+        yaw: -8.1996
+        pitch: 0.8667
       scoreboardtrait:
         tags:
           '0': CITIZENS_NPC

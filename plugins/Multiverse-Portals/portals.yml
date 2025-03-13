@@ -477,3 +477,23 @@ portals:
     location: -1165.0,62.0,-498.0:-1163.0,64.0,-498.0
     world: Hub
     destination: world
+  spleefworld_exit:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 3.0,-44.0,1.0:5.0,-42.0,1.0
+    world: spleefworld
+    destination: world
+  spleefworld_entry:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: 6.0,202.0,40.0:6.0,203.0,40.0
+    world: world
+    destination: spleefworld
