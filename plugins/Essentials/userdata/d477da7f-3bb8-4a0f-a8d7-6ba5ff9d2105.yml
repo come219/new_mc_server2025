@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 69.250.203.48
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1742284031162
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742272679450
+  login: 1742283987633
+money: '0'
+last-account-name: fergon1441
+lastlocation:
+  world: dc621bd4-b3fe-4ce7-abe5-3f25023ae0d5
+  world-name: Survival
+  x: -2574.014127638805
+  y: 68.0
+  z: 1352.475683190896
+  yaw: -172.050048828125
+  pitch: 41.99999237060547
+logoutlocation:
+  world: a8154cbb-2777-419f-b54b-0df055630bf2
+  world-name: world_the_end
+  x: -2518.9832449139008
+  y: 32.11288979078863
+  z: 1404.2754138523687
+  yaw: -66.749755859375
+  pitch: 90.0
+homes:
+  survival:
+    world: dc621bd4-b3fe-4ce7-abe5-3f25023ae0d5
+    world-name: Survival
+    x: -2624.343431520636
+    y: 112.0
+    z: 1270.573021244531
+    yaw: -145.64959716796875
+    pitch: 74.5501480102539

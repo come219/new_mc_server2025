@@ -1,0 +1,11 @@
+crontab -e
+
+0 * * * * /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh >> /root/sebi/minecraft_server/new_mc_server2025/cron_log.txt 2>&1
+
+
+0 * * * * /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh
+
+
+
+0 * * * * /root/sebi/minecraft_server/new_mc_server2025/bin/auto_server_restart.sh
+

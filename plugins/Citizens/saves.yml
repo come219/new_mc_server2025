@@ -30,12 +30,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 2.603325
+        bodyYaw: -80.35917
         world: world
         x: 23.5
         y: 201.0
         z: 0.5
-        yaw: 2.6033
+        yaw: -80.3592
         pitch: 0.0
       skintrait:
         signature: RzcbgP/x4ULBwbBFMkaZhpb3/Df7kHr5oZLqOtjcmNlT8yktixLIiow4fVv/UcAgklQnUld4mCUwcnhJHLrXlZZ6gzqCthzTvbdyAeuyegvn2sZGYFz5hnhR4hcutZy0coxdYEipm5QGBxiSR0J00c04wDzvFjzfg8yrvloLNU0kOwlJhEVLT/bJBg30SwnGI2VN2P13JWbgx/sMDky0k581qBUrqMvhuilX903H2BhGEo9yPmAdgbGlB2ji3MCucFw//NAmFZiSqOWaTBTdggZjf4bQXhxARDnbsx2qGtuNUyB91q7TJyx7HassEBkRgKM3sOB/rhpQMKE151fWHoMoYufP/V8jNdRKKNq2ujDJc9YGDmzZInZ/WDK6uJvusyTDVT2/+oK+3wHa9TZL4XRv2gwvM1jXcUKPrbZ16JgpZKg2tQHV+9QA1ntYgp0Kucn+f7P3Z/DRdIkoStVsvjt4sI/0AK8RSrRNsS8Ti/zHku/7iZYSMC6zvtc4Ln+eo5d6kbOCtLf0OwhIi3nSV8XfpuJ+qaH1NKWrTqVXt3rYMg/30EbSkwUS4L1PhYyvClkoBZiJcClP+M16q3esU/dip28kA0HL0ZIBaNtyxSbXTJFyIvJ/ZWVp92DPJStGw/e4PcpHt3YFfQT4kpMPySyhUyLvsGkJSRYeJI+wnL4=
@@ -273,13 +273,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 14.942871
+        bodyYaw: 17.864082
         world: world
         x: -1.1052
         y: 160.0
         z: 16.3043
-        yaw: 14.9429
-        pitch: -62.1706
+        yaw: 17.8641
+        pitch: -49.9372
       skintrait:
         signature: Pfz86fhAzAb/IscuIu28lNptWYJqjcVGg5cKq6eMbrxJM10+O8zVUe2WMXWgGts6227tf4NfFMBEsEKNnTsVBu2BHGtpZ3pZu61lbA1o7diu/XtpbK9SwvpgXUlCpuqzLjrfGMpU4vrK/3WzcArfJRTew8UP9LWl09bJjuysg5t1/RrXir9ns9vAmrJDYGAM3NbNbz1wnfiwQ/Hybf679NEFxyzZPJ8+IBq1GW3BeQ7sZ9IJF+68rq+YFerrXgmkrRH9WqnaUo8gJMawfqRvSAg+bAom2R8k0sn4eLkd8sMBBZVfsQfPPFXX8DdmuOH+E2jtsO9fa4sgZi/7jIgn1LFU6XSPWN499Ludxdhrv7UwNTmq4IEJDE0LTvZbHkjGL+bVmaxFQQm5pol53kjEo9Xuc1oCQYh6wCXgIeDv7KfkA9mlUYsjyUALXBJo0cPKkFTyHpQmkHxyeLYvu3xAAE3BrKGgdJLg0mbYmB9VyqlsL67gWtzCSfhbk4qkhSlYwpG5aie/vZh+Hb/GBfaANBzlOtvMyyS5Km8wSYjoyRp8swsjcoDlVPQtVrn5bl7zPymCW3roRCpPT25ICaGu7vyJA8y5+8/6dU5btNjcO3raOk+fFttWTXzf4gcqNT1Ofp5XCNCSCCDrfHyhoIl0Lg0dUIe7xH8imGoG/11oXUI=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTU3OTk3ODQzMywKICAicHJvZmlsZUlkIiA6ICJkNDc3ZGE3ZjNiYjg0YTBmYThkNzZiYTVmZjlkMjEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmZXJnb24xNDQxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhZDdlMTQ3MTFjZDgzNTFjY2Q0OGQ5ZTFkMzVhMzcwYzQ0YzIxYzMzNTgzMDJmMDdlNjYxOTU1OTI2N2MwMDQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9
@@ -319,7 +319,7 @@ npc:
         bodyYaw: -177.44742
         world: world
         x: -3.4144
-        y: 160.0
+        y: 159.4
         z: 16.458
         yaw: -177.4474
         pitch: 11.4988
@@ -650,13 +650,13 @@ npc:
         signature: tnB3s/KR+ddAmKio8VM2sYrbMV2ZXM1qvsDmgImvWVMuQ4CckqA6NNYc0Ah2VzCeJ/LU357TQws8lBOP0C5myNBr4EWAeD0wiaIHX0cCbpDTECbH2RLMxlXPzSaR+LphqbLsKAhjg4U9vieqYdGt8KxCSWmz3rhtgNAwPPlqofrcSLzZ/NKp+jucCJRiRmLIM90k989vGMqm3+cyiTwmz5u6EJOqHxxhtCHQULG9Qrq5Kv4k5BcSbJHiYm9g2xx8rnYTrU9it3hcMy/GFhK17EM7Yb6MAH4BAjvuSA+4XyureS2E2Hcnlp6ejs1f/dUJ5yjs2HSXgoxo+JLWBwHpiCJZMTPu2GjPTT/wmt+nk2vpB9pGN1E9Ies87NCKlBlTQNp6GhBvJSZoXvtB5RU2Iq1f6Z1Xkt4M3jEckagXLqsESP63JCtIJMf+mDJ84OsQ+j13I+VeQgVJL9Icn1cPM/y9Z8VYmruUGS47pghfLd1XP7V43DmFpLmwhw7NQihnL3+HmAex72AgvUdZKkA29gw0AmMsQhtMFOKdUfGJeu3p/aKHzAPncP0fPsRU31oCqfv3RRQbHcSbV5PeKpMSG+AV9aj3+WOy1CWnSwM0lwIlI4rqZrkcafpxrq862ZB+GTj4kPwqGwcsE9o8jNdASVR0Gaahlbsx0/88B0HDivI=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY0MTYwNDc1MSwKICAicHJvZmlsZUlkIiA6ICJhYThhMmM1OTBhM2I0YTc0YjJjNjg2Y2JkYTQwMDZlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaGFkb3dEaW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2YWNkMDZlODQ4M2IxNzZlOGVhMzlmYzEyZmUxMDVlYjNhMmE0OTcwZjUxMDAwNTdlOWQ4NGQ0YjYwYmRmYTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -34.235886
+        bodyYaw: -27.516354
         world: world
         x: -6.0039
         y: 160.0
         z: 18.4877
-        yaw: -34.2359
-        pitch: -62.6973
+        yaw: -27.5164
+        pitch: -56.7753
       owner:
         uuid: d4842c23-62db-4ff0-9d65-1679e6cdb6f5
       lookclose:
@@ -867,13 +867,13 @@ npc:
         tags:
           '0': CITIZENS_NPC
       location:
-        bodyYaw: 89.25795
+        bodyYaw: -35.4315
         world: world
         x: 13.5
-        y: 201.0
+        y: 200.4
         z: -10.5
-        yaw: 105.2862
-        pitch: -0.1031
+        yaw: -35.4315
+        pitch: -3.9061
       skintrait:
         signature: wNHCGzt+WZA7RoFWOU+kNH5fIoH3MS8tds2IX1jMqV4rNoe9JBqn/Yf2NSGp/3otVJDglNQDr5zWaA4l0nfCZTLwvg2j/HQwuvnR2EABJcnh0H3JKot9e0NzMF0ngxR9G/AiCJuexcAKSE1++IgopIRJwpBchkjBVzOv1mbjAbkDNtqLnxKlbgh+diRpLUPz0IKTM7j7vyprmURa+4jgcnoii1Z+1WN+gRBH1LfvG5PHt2UGIrK0fIM1iTEWuyXT53n93Ubt5BEaWiIlMmarDrTHKAAURGUW5Z2J1UdLTPxf7jVu9wkJoY3CHi6273iBf+q2Gws4p5YoF17EkzLacYxxIbY4sQpiaT/oyBJMoNdmZTloRPCN9D1crhCA0hDjk+U1fel+79EsbBn4Ksq4A7NpvaKXJ4gp5upERAEfOfQZ1TNrs4JZwYCGVaTfrTVobml8dWXFn6D5CSoyJVBbBu003zM54l6oaL/da178O8H1A+K4aZHiGL+I7Ap6iYl62TIGJKWdLFQgexwiCPjowcnFlkXzMWb5KW30pTF3QffjNexrJ5SI3REJiCKqlLyEXE7HXCfABBPi3+db2OpjDV7lrlCRoLhr90xKrzA3gbUPBZqZ7i5ETIuHXCMeC7AJGndxBW18N2WDGFX03LorNybS7IL9Iyro1H+WkbXKI+c=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MTY1Mjc4ODQzMSwKICAicHJvZmlsZUlkIiA6ICIwZGJmOGYxN2U0NmU0NTUyYmEzZDNkYmExYTA0M2ZlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4NTc4MTUwOWFkNTY3ZDVjMTllYjQyMjY1MmQ2NmM2ZDRjOGE5MWRkNGQyNTkyOGM0ZDEzNDkxZDUzODhhZjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzI5NDEwMDU3ZTMyYWJlYzAyZDg3MGVjYjUyZWMyNWZiNDVlYTgxZTc4NWE3ODU0YWU4NDI5ZDcyMzZjYTI2IgogICAgfQogIH0KfQ==
@@ -967,13 +967,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -18.227089
+        bodyYaw: 76.800385
         world: world
         x: -1.7
         y: 201.0
         z: 24.5255
-        yaw: -18.2271
-        pitch: -9.5564
+        yaw: 76.8004
+        pitch: -1.7033
       lookclose:
         range: 10.0
         enabled: true

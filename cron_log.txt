@@ -1,0 +1,5 @@
+/bin/sh: line 1: /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh: No such file or directory
+/bin/sh: line 1: /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh: No such file or directory
+/bin/sh: line 1: /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh: No such file or directory
+/bin/sh: line 1: /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh: No such file or directory
+/bin/sh: line 1: /root/sebi/minecraft_server/new_mc_server2025/restart_minecraft.sh: No such file or directory
