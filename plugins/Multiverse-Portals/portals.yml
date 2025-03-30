@@ -497,3 +497,12 @@ portals:
     location: 6.0,202.0,40.0:6.0,203.0,40.0
     world: world
     destination: spleefworld
+  back_portal:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: come219
+    location: -6.0,200.0,-6.0:-3.0,200.0,-3.0
+    world: world

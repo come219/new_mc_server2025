@@ -1,12 +1,15 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-03-25 14:00:09 +0000",
       "minecraft:dark_forest": "2025-03-10 18:07:26 +0000",
       "minecraft:stony_peaks": "2025-03-10 18:47:55 +0000",
       "minecraft:forest": "2025-03-10 07:42:01 +0000",
       "minecraft:taiga": "2017-08-16 23:16:15 +0000",
+      "minecraft:sparse_jungle": "2025-03-25 14:07:44 +0000",
       "minecraft:deep_ocean": "2025-03-10 18:48:41 +0000",
       "minecraft:river": "2017-08-16 21:33:15 +0000",
+      "minecraft:lukewarm_ocean": "2025-03-25 13:57:20 +0000",
       "minecraft:snowy_plains": "2025-03-10 07:45:01 +0000",
       "minecraft:lush_caves": "2025-03-10 18:47:49 +0000",
       "minecraft:snowy_taiga": "2025-03-10 07:46:56 +0000",
@@ -14,6 +17,7 @@
       "minecraft:frozen_river": "2025-03-10 07:57:50 +0000",
       "minecraft:windswept_forest": "2025-03-10 07:41:50 +0000",
       "minecraft:ocean": "2025-03-10 07:46:04 +0000",
+      "minecraft:jungle": "2025-03-25 13:56:33 +0000",
       "minecraft:swamp": "2025-03-10 18:07:39 +0000",
       "minecraft:meadow": "2025-03-10 21:13:43 +0000",
       "minecraft:birch_forest": "2017-08-16 23:38:22 +0000",
@@ -1864,6 +1868,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-03-23 11:38:09 +0000",
       "minecraft:nether_wastes": "2025-03-11 05:50:20 +0000"
     },
     "done": false
@@ -2219,6 +2224,30 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2025-03-13 18:46:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2025-03-23 12:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2025-03-23 12:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2025-03-23 12:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-24 00:05:29 +0000"
     },
     "done": true
   },

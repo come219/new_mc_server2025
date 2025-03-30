@@ -9,3 +9,10 @@ crontab -e
 
 0 * * * * /root/sebi/minecraft_server/new_mc_server2025/bin/auto_server_restart.sh
 
+
+
+
+0 * * * * /root/sebi/minecraft_server/new_mc_server2025/bin/auto_server_restart.sh
+
+
+
