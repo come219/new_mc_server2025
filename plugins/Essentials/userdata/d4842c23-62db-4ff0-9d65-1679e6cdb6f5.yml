@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 124.122.125.83
+ip-address: 192.168.1.40
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742912734581
-  login: 1742905623661
+  logout: 1743392755982
+  login: 1743392735559
 money: '1195.0'
 last-account-name: come219
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: be8013c3-25e1-4a81-bfc8-32c0c3eadb9e
   world-name: world
-  x: -6.631759434863202
-  y: 215.22403749060965
-  z: -0.19544964330903575
-  yaw: 173.5784912109375
-  pitch: 33.15007781982422
+  x: 0.643617118553903
+  y: 214.0
+  z: 1.7652328152444712
+  yaw: 0.329620361328125
+  pitch: 18.60015869140625
